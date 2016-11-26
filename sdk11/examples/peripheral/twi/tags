@@ -1,0 +1,1710 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADC_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	383;"	d
+ADC_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	383;"	d
+ADC_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	383;"	d
+ADC_ENABLED	config/uart_pca10028/nrf_drv_config.h	380;"	d
+ADC_ENABLED	config/uart_pca10036/nrf_drv_config.h	380;"	d
+ADC_ENABLED	config/uart_pca10040/nrf_drv_config.h	380;"	d
+ADC_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^ADC_IRQHandler$/;"	l
+APP_TIMER_MAX_TIMERS	main.c	46;"	d	file:
+APP_TIMER_OP_QUEUE_SIZE	main.c	47;"	d	file:
+APP_TIMER_PRESCALER	main.c	45;"	d	file:
+AR	pca10028/armgcc/Makefile	/^AR              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-ar' -r$/;"	m
+AR	pca10036/armgcc/Makefile	/^AR              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-ar' -r$/;"	m
+AR	pca10040/armgcc/Makefile	/^AR              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-ar' -r$/;"	m
+AS	pca10028/armgcc/Makefile	/^AS              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-as'$/;"	m
+AS	pca10036/armgcc/Makefile	/^AS              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-as'$/;"	m
+AS	pca10040/armgcc/Makefile	/^AS              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-as'$/;"	m
+ASM_OBJECTS	pca10028/armgcc/Makefile	/^ASM_OBJECTS = $(addprefix $(OBJECT_DIRECTORY)\/, $(ASM_SOURCE_FILE_NAMES:.s=.o) )$/;"	m
+ASM_OBJECTS	pca10036/armgcc/Makefile	/^ASM_OBJECTS = $(addprefix $(OBJECT_DIRECTORY)\/, $(ASM_SOURCE_FILE_NAMES:.s=.o) )$/;"	m
+ASM_OBJECTS	pca10040/armgcc/Makefile	/^ASM_OBJECTS = $(addprefix $(OBJECT_DIRECTORY)\/, $(ASM_SOURCE_FILE_NAMES:.s=.o) )$/;"	m
+ASM_PATHS	pca10028/armgcc/Makefile	/^ASM_PATHS = $(call remduplicates, $(dir $(ASM_SOURCE_FILES) ))$/;"	m
+ASM_PATHS	pca10036/armgcc/Makefile	/^ASM_PATHS = $(call remduplicates, $(dir $(ASM_SOURCE_FILES) ))$/;"	m
+ASM_PATHS	pca10040/armgcc/Makefile	/^ASM_PATHS = $(call remduplicates, $(dir $(ASM_SOURCE_FILES) ))$/;"	m
+ASM_SOURCE_FILES	pca10028/armgcc/Makefile	/^ASM_SOURCE_FILES  = $(abspath ..\/..\/..\/..\/..\/components\/toolchain\/gcc\/gcc_startup_nrf51.s)$/;"	m
+ASM_SOURCE_FILES	pca10036/armgcc/Makefile	/^ASM_SOURCE_FILES  = $(abspath ..\/..\/..\/..\/..\/components\/toolchain\/gcc\/gcc_startup_nrf52.s)$/;"	m
+ASM_SOURCE_FILES	pca10040/armgcc/Makefile	/^ASM_SOURCE_FILES  = $(abspath ..\/..\/..\/..\/..\/components\/toolchain\/gcc\/gcc_startup_nrf52.s)$/;"	m
+ASM_SOURCE_FILE_NAMES	pca10028/armgcc/Makefile	/^ASM_SOURCE_FILE_NAMES = $(notdir $(ASM_SOURCE_FILES))$/;"	m
+ASM_SOURCE_FILE_NAMES	pca10036/armgcc/Makefile	/^ASM_SOURCE_FILE_NAMES = $(notdir $(ASM_SOURCE_FILES))$/;"	m
+ASM_SOURCE_FILE_NAMES	pca10040/armgcc/Makefile	/^ASM_SOURCE_FILE_NAMES = $(notdir $(ASM_SOURCE_FILES))$/;"	m
+B0	binary.h	23;"	d
+B00	binary.h	24;"	d
+B000	binary.h	25;"	d
+B0000	binary.h	26;"	d
+B00000	binary.h	27;"	d
+B000000	binary.h	28;"	d
+B0000000	binary.h	29;"	d
+B00000000	binary.h	30;"	d
+B00000001	binary.h	38;"	d
+B0000001	binary.h	37;"	d
+B00000010	binary.h	45;"	d
+B00000011	binary.h	52;"	d
+B000001	binary.h	36;"	d
+B0000010	binary.h	44;"	d
+B00000100	binary.h	58;"	d
+B00000101	binary.h	64;"	d
+B0000011	binary.h	51;"	d
+B00000110	binary.h	70;"	d
+B00000111	binary.h	76;"	d
+B00001	binary.h	35;"	d
+B000010	binary.h	43;"	d
+B0000100	binary.h	57;"	d
+B00001000	binary.h	81;"	d
+B00001001	binary.h	86;"	d
+B0000101	binary.h	63;"	d
+B00001010	binary.h	91;"	d
+B00001011	binary.h	96;"	d
+B000011	binary.h	50;"	d
+B0000110	binary.h	69;"	d
+B00001100	binary.h	101;"	d
+B00001101	binary.h	106;"	d
+B0000111	binary.h	75;"	d
+B00001110	binary.h	111;"	d
+B00001111	binary.h	116;"	d
+B0001	binary.h	34;"	d
+B00010	binary.h	42;"	d
+B000100	binary.h	56;"	d
+B0001000	binary.h	80;"	d
+B00010000	binary.h	120;"	d
+B00010001	binary.h	124;"	d
+B0001001	binary.h	85;"	d
+B00010010	binary.h	128;"	d
+B00010011	binary.h	132;"	d
+B000101	binary.h	62;"	d
+B0001010	binary.h	90;"	d
+B00010100	binary.h	136;"	d
+B00010101	binary.h	140;"	d
+B0001011	binary.h	95;"	d
+B00010110	binary.h	144;"	d
+B00010111	binary.h	148;"	d
+B00011	binary.h	49;"	d
+B000110	binary.h	68;"	d
+B0001100	binary.h	100;"	d
+B00011000	binary.h	152;"	d
+B00011001	binary.h	156;"	d
+B0001101	binary.h	105;"	d
+B00011010	binary.h	160;"	d
+B00011011	binary.h	164;"	d
+B000111	binary.h	74;"	d
+B0001110	binary.h	110;"	d
+B00011100	binary.h	168;"	d
+B00011101	binary.h	172;"	d
+B0001111	binary.h	115;"	d
+B00011110	binary.h	176;"	d
+B00011111	binary.h	180;"	d
+B001	binary.h	33;"	d
+B0010	binary.h	41;"	d
+B00100	binary.h	55;"	d
+B001000	binary.h	79;"	d
+B0010000	binary.h	119;"	d
+B00100000	binary.h	183;"	d
+B00100001	binary.h	186;"	d
+B0010001	binary.h	123;"	d
+B00100010	binary.h	189;"	d
+B00100011	binary.h	192;"	d
+B001001	binary.h	84;"	d
+B0010010	binary.h	127;"	d
+B00100100	binary.h	195;"	d
+B00100101	binary.h	198;"	d
+B0010011	binary.h	131;"	d
+B00100110	binary.h	201;"	d
+B00100111	binary.h	204;"	d
+B00101	binary.h	61;"	d
+B001010	binary.h	89;"	d
+B0010100	binary.h	135;"	d
+B00101000	binary.h	207;"	d
+B00101001	binary.h	210;"	d
+B0010101	binary.h	139;"	d
+B00101010	binary.h	213;"	d
+B00101011	binary.h	216;"	d
+B001011	binary.h	94;"	d
+B0010110	binary.h	143;"	d
+B00101100	binary.h	219;"	d
+B00101101	binary.h	222;"	d
+B0010111	binary.h	147;"	d
+B00101110	binary.h	225;"	d
+B00101111	binary.h	228;"	d
+B0011	binary.h	48;"	d
+B00110	binary.h	67;"	d
+B001100	binary.h	99;"	d
+B0011000	binary.h	151;"	d
+B00110000	binary.h	231;"	d
+B00110001	binary.h	234;"	d
+B0011001	binary.h	155;"	d
+B00110010	binary.h	237;"	d
+B00110011	binary.h	240;"	d
+B001101	binary.h	104;"	d
+B0011010	binary.h	159;"	d
+B00110100	binary.h	243;"	d
+B00110101	binary.h	246;"	d
+B0011011	binary.h	163;"	d
+B00110110	binary.h	249;"	d
+B00110111	binary.h	252;"	d
+B00111	binary.h	73;"	d
+B001110	binary.h	109;"	d
+B0011100	binary.h	167;"	d
+B00111000	binary.h	255;"	d
+B00111001	binary.h	258;"	d
+B0011101	binary.h	171;"	d
+B00111010	binary.h	261;"	d
+B00111011	binary.h	264;"	d
+B001111	binary.h	114;"	d
+B0011110	binary.h	175;"	d
+B00111100	binary.h	267;"	d
+B00111101	binary.h	270;"	d
+B0011111	binary.h	179;"	d
+B00111110	binary.h	273;"	d
+B00111111	binary.h	276;"	d
+B01	binary.h	32;"	d
+B010	binary.h	40;"	d
+B0100	binary.h	54;"	d
+B01000	binary.h	78;"	d
+B010000	binary.h	118;"	d
+B0100000	binary.h	182;"	d
+B01000000	binary.h	278;"	d
+B01000001	binary.h	280;"	d
+B0100001	binary.h	185;"	d
+B01000010	binary.h	282;"	d
+B01000011	binary.h	284;"	d
+B010001	binary.h	122;"	d
+B0100010	binary.h	188;"	d
+B01000100	binary.h	286;"	d
+B01000101	binary.h	288;"	d
+B0100011	binary.h	191;"	d
+B01000110	binary.h	290;"	d
+B01000111	binary.h	292;"	d
+B01001	binary.h	83;"	d
+B010010	binary.h	126;"	d
+B0100100	binary.h	194;"	d
+B01001000	binary.h	294;"	d
+B01001001	binary.h	296;"	d
+B0100101	binary.h	197;"	d
+B01001010	binary.h	298;"	d
+B01001011	binary.h	300;"	d
+B010011	binary.h	130;"	d
+B0100110	binary.h	200;"	d
+B01001100	binary.h	302;"	d
+B01001101	binary.h	304;"	d
+B0100111	binary.h	203;"	d
+B01001110	binary.h	306;"	d
+B01001111	binary.h	308;"	d
+B0101	binary.h	60;"	d
+B01010	binary.h	88;"	d
+B010100	binary.h	134;"	d
+B0101000	binary.h	206;"	d
+B01010000	binary.h	310;"	d
+B01010001	binary.h	312;"	d
+B0101001	binary.h	209;"	d
+B01010010	binary.h	314;"	d
+B01010011	binary.h	316;"	d
+B010101	binary.h	138;"	d
+B0101010	binary.h	212;"	d
+B01010100	binary.h	318;"	d
+B01010101	binary.h	320;"	d
+B0101011	binary.h	215;"	d
+B01010110	binary.h	322;"	d
+B01010111	binary.h	324;"	d
+B01011	binary.h	93;"	d
+B010110	binary.h	142;"	d
+B0101100	binary.h	218;"	d
+B01011000	binary.h	326;"	d
+B01011001	binary.h	328;"	d
+B0101101	binary.h	221;"	d
+B01011010	binary.h	330;"	d
+B01011011	binary.h	332;"	d
+B010111	binary.h	146;"	d
+B0101110	binary.h	224;"	d
+B01011100	binary.h	334;"	d
+B01011101	binary.h	336;"	d
+B0101111	binary.h	227;"	d
+B01011110	binary.h	338;"	d
+B01011111	binary.h	340;"	d
+B011	binary.h	47;"	d
+B0110	binary.h	66;"	d
+B01100	binary.h	98;"	d
+B011000	binary.h	150;"	d
+B0110000	binary.h	230;"	d
+B01100000	binary.h	342;"	d
+B01100001	binary.h	344;"	d
+B0110001	binary.h	233;"	d
+B01100010	binary.h	346;"	d
+B01100011	binary.h	348;"	d
+B011001	binary.h	154;"	d
+B0110010	binary.h	236;"	d
+B01100100	binary.h	350;"	d
+B01100101	binary.h	352;"	d
+B0110011	binary.h	239;"	d
+B01100110	binary.h	354;"	d
+B01100111	binary.h	356;"	d
+B01101	binary.h	103;"	d
+B011010	binary.h	158;"	d
+B0110100	binary.h	242;"	d
+B01101000	binary.h	358;"	d
+B01101001	binary.h	360;"	d
+B0110101	binary.h	245;"	d
+B01101010	binary.h	362;"	d
+B01101011	binary.h	364;"	d
+B011011	binary.h	162;"	d
+B0110110	binary.h	248;"	d
+B01101100	binary.h	366;"	d
+B01101101	binary.h	368;"	d
+B0110111	binary.h	251;"	d
+B01101110	binary.h	370;"	d
+B01101111	binary.h	372;"	d
+B0111	binary.h	72;"	d
+B01110	binary.h	108;"	d
+B011100	binary.h	166;"	d
+B0111000	binary.h	254;"	d
+B01110000	binary.h	374;"	d
+B01110001	binary.h	376;"	d
+B0111001	binary.h	257;"	d
+B01110010	binary.h	378;"	d
+B01110011	binary.h	380;"	d
+B011101	binary.h	170;"	d
+B0111010	binary.h	260;"	d
+B01110100	binary.h	382;"	d
+B01110101	binary.h	384;"	d
+B0111011	binary.h	263;"	d
+B01110110	binary.h	386;"	d
+B01110111	binary.h	388;"	d
+B01111	binary.h	113;"	d
+B011110	binary.h	174;"	d
+B0111100	binary.h	266;"	d
+B01111000	binary.h	390;"	d
+B01111001	binary.h	392;"	d
+B0111101	binary.h	269;"	d
+B01111010	binary.h	394;"	d
+B01111011	binary.h	396;"	d
+B011111	binary.h	178;"	d
+B0111110	binary.h	272;"	d
+B01111100	binary.h	398;"	d
+B01111101	binary.h	400;"	d
+B0111111	binary.h	275;"	d
+B01111110	binary.h	402;"	d
+B01111111	binary.h	404;"	d
+B1	binary.h	31;"	d
+B10	binary.h	39;"	d
+B100	binary.h	53;"	d
+B1000	binary.h	77;"	d
+B10000	binary.h	117;"	d
+B100000	binary.h	181;"	d
+B1000000	binary.h	277;"	d
+B10000000	binary.h	405;"	d
+B10000001	binary.h	406;"	d
+B1000001	binary.h	279;"	d
+B10000010	binary.h	407;"	d
+B10000011	binary.h	408;"	d
+B100001	binary.h	184;"	d
+B1000010	binary.h	281;"	d
+B10000100	binary.h	409;"	d
+B10000101	binary.h	410;"	d
+B1000011	binary.h	283;"	d
+B10000110	binary.h	411;"	d
+B10000111	binary.h	412;"	d
+B10001	binary.h	121;"	d
+B100010	binary.h	187;"	d
+B1000100	binary.h	285;"	d
+B10001000	binary.h	413;"	d
+B10001001	binary.h	414;"	d
+B1000101	binary.h	287;"	d
+B10001010	binary.h	415;"	d
+B10001011	binary.h	416;"	d
+B100011	binary.h	190;"	d
+B1000110	binary.h	289;"	d
+B10001100	binary.h	417;"	d
+B10001101	binary.h	418;"	d
+B1000111	binary.h	291;"	d
+B10001110	binary.h	419;"	d
+B10001111	binary.h	420;"	d
+B1001	binary.h	82;"	d
+B10010	binary.h	125;"	d
+B100100	binary.h	193;"	d
+B1001000	binary.h	293;"	d
+B10010000	binary.h	421;"	d
+B10010001	binary.h	422;"	d
+B1001001	binary.h	295;"	d
+B10010010	binary.h	423;"	d
+B10010011	binary.h	424;"	d
+B100101	binary.h	196;"	d
+B1001010	binary.h	297;"	d
+B10010100	binary.h	425;"	d
+B10010101	binary.h	426;"	d
+B1001011	binary.h	299;"	d
+B10010110	binary.h	427;"	d
+B10010111	binary.h	428;"	d
+B10011	binary.h	129;"	d
+B100110	binary.h	199;"	d
+B1001100	binary.h	301;"	d
+B10011000	binary.h	429;"	d
+B10011001	binary.h	430;"	d
+B1001101	binary.h	303;"	d
+B10011010	binary.h	431;"	d
+B10011011	binary.h	432;"	d
+B100111	binary.h	202;"	d
+B1001110	binary.h	305;"	d
+B10011100	binary.h	433;"	d
+B10011101	binary.h	434;"	d
+B1001111	binary.h	307;"	d
+B10011110	binary.h	435;"	d
+B10011111	binary.h	436;"	d
+B101	binary.h	59;"	d
+B1010	binary.h	87;"	d
+B10100	binary.h	133;"	d
+B101000	binary.h	205;"	d
+B1010000	binary.h	309;"	d
+B10100000	binary.h	437;"	d
+B10100001	binary.h	438;"	d
+B1010001	binary.h	311;"	d
+B10100010	binary.h	439;"	d
+B10100011	binary.h	440;"	d
+B101001	binary.h	208;"	d
+B1010010	binary.h	313;"	d
+B10100100	binary.h	441;"	d
+B10100101	binary.h	442;"	d
+B1010011	binary.h	315;"	d
+B10100110	binary.h	443;"	d
+B10100111	binary.h	444;"	d
+B10101	binary.h	137;"	d
+B101010	binary.h	211;"	d
+B1010100	binary.h	317;"	d
+B10101000	binary.h	445;"	d
+B10101001	binary.h	446;"	d
+B1010101	binary.h	319;"	d
+B10101010	binary.h	447;"	d
+B10101011	binary.h	448;"	d
+B101011	binary.h	214;"	d
+B1010110	binary.h	321;"	d
+B10101100	binary.h	449;"	d
+B10101101	binary.h	450;"	d
+B1010111	binary.h	323;"	d
+B10101110	binary.h	451;"	d
+B10101111	binary.h	452;"	d
+B1011	binary.h	92;"	d
+B10110	binary.h	141;"	d
+B101100	binary.h	217;"	d
+B1011000	binary.h	325;"	d
+B10110000	binary.h	453;"	d
+B10110001	binary.h	454;"	d
+B1011001	binary.h	327;"	d
+B10110010	binary.h	455;"	d
+B10110011	binary.h	456;"	d
+B101101	binary.h	220;"	d
+B1011010	binary.h	329;"	d
+B10110100	binary.h	457;"	d
+B10110101	binary.h	458;"	d
+B1011011	binary.h	331;"	d
+B10110110	binary.h	459;"	d
+B10110111	binary.h	460;"	d
+B10111	binary.h	145;"	d
+B101110	binary.h	223;"	d
+B1011100	binary.h	333;"	d
+B10111000	binary.h	461;"	d
+B10111001	binary.h	462;"	d
+B1011101	binary.h	335;"	d
+B10111010	binary.h	463;"	d
+B10111011	binary.h	464;"	d
+B101111	binary.h	226;"	d
+B1011110	binary.h	337;"	d
+B10111100	binary.h	465;"	d
+B10111101	binary.h	466;"	d
+B1011111	binary.h	339;"	d
+B10111110	binary.h	467;"	d
+B10111111	binary.h	468;"	d
+B11	binary.h	46;"	d
+B110	binary.h	65;"	d
+B1100	binary.h	97;"	d
+B11000	binary.h	149;"	d
+B110000	binary.h	229;"	d
+B1100000	binary.h	341;"	d
+B11000000	binary.h	469;"	d
+B11000001	binary.h	470;"	d
+B1100001	binary.h	343;"	d
+B11000010	binary.h	471;"	d
+B11000011	binary.h	472;"	d
+B110001	binary.h	232;"	d
+B1100010	binary.h	345;"	d
+B11000100	binary.h	473;"	d
+B11000101	binary.h	474;"	d
+B1100011	binary.h	347;"	d
+B11000110	binary.h	475;"	d
+B11000111	binary.h	476;"	d
+B11001	binary.h	153;"	d
+B110010	binary.h	235;"	d
+B1100100	binary.h	349;"	d
+B11001000	binary.h	477;"	d
+B11001001	binary.h	478;"	d
+B1100101	binary.h	351;"	d
+B11001010	binary.h	479;"	d
+B11001011	binary.h	480;"	d
+B110011	binary.h	238;"	d
+B1100110	binary.h	353;"	d
+B11001100	binary.h	481;"	d
+B11001101	binary.h	482;"	d
+B1100111	binary.h	355;"	d
+B11001110	binary.h	483;"	d
+B11001111	binary.h	484;"	d
+B1101	binary.h	102;"	d
+B11010	binary.h	157;"	d
+B110100	binary.h	241;"	d
+B1101000	binary.h	357;"	d
+B11010000	binary.h	485;"	d
+B11010001	binary.h	486;"	d
+B1101001	binary.h	359;"	d
+B11010010	binary.h	487;"	d
+B11010011	binary.h	488;"	d
+B110101	binary.h	244;"	d
+B1101010	binary.h	361;"	d
+B11010100	binary.h	489;"	d
+B11010101	binary.h	490;"	d
+B1101011	binary.h	363;"	d
+B11010110	binary.h	491;"	d
+B11010111	binary.h	492;"	d
+B11011	binary.h	161;"	d
+B110110	binary.h	247;"	d
+B1101100	binary.h	365;"	d
+B11011000	binary.h	493;"	d
+B11011001	binary.h	494;"	d
+B1101101	binary.h	367;"	d
+B11011010	binary.h	495;"	d
+B11011011	binary.h	496;"	d
+B110111	binary.h	250;"	d
+B1101110	binary.h	369;"	d
+B11011100	binary.h	497;"	d
+B11011101	binary.h	498;"	d
+B1101111	binary.h	371;"	d
+B11011110	binary.h	499;"	d
+B11011111	binary.h	500;"	d
+B111	binary.h	71;"	d
+B1110	binary.h	107;"	d
+B11100	binary.h	165;"	d
+B111000	binary.h	253;"	d
+B1110000	binary.h	373;"	d
+B11100000	binary.h	501;"	d
+B11100001	binary.h	502;"	d
+B1110001	binary.h	375;"	d
+B11100010	binary.h	503;"	d
+B11100011	binary.h	504;"	d
+B111001	binary.h	256;"	d
+B1110010	binary.h	377;"	d
+B11100100	binary.h	505;"	d
+B11100101	binary.h	506;"	d
+B1110011	binary.h	379;"	d
+B11100110	binary.h	507;"	d
+B11100111	binary.h	508;"	d
+B11101	binary.h	169;"	d
+B111010	binary.h	259;"	d
+B1110100	binary.h	381;"	d
+B11101000	binary.h	509;"	d
+B11101001	binary.h	510;"	d
+B1110101	binary.h	383;"	d
+B11101010	binary.h	511;"	d
+B11101011	binary.h	512;"	d
+B111011	binary.h	262;"	d
+B1110110	binary.h	385;"	d
+B11101100	binary.h	513;"	d
+B11101101	binary.h	514;"	d
+B1110111	binary.h	387;"	d
+B11101110	binary.h	515;"	d
+B11101111	binary.h	516;"	d
+B1111	binary.h	112;"	d
+B11110	binary.h	173;"	d
+B111100	binary.h	265;"	d
+B1111000	binary.h	389;"	d
+B11110000	binary.h	517;"	d
+B11110001	binary.h	518;"	d
+B1111001	binary.h	391;"	d
+B11110010	binary.h	519;"	d
+B11110011	binary.h	520;"	d
+B111101	binary.h	268;"	d
+B1111010	binary.h	393;"	d
+B11110100	binary.h	521;"	d
+B11110101	binary.h	522;"	d
+B1111011	binary.h	395;"	d
+B11110110	binary.h	523;"	d
+B11110111	binary.h	524;"	d
+B11111	binary.h	177;"	d
+B111110	binary.h	271;"	d
+B1111100	binary.h	397;"	d
+B11111000	binary.h	525;"	d
+B11111001	binary.h	526;"	d
+B1111101	binary.h	399;"	d
+B11111010	binary.h	527;"	d
+B11111011	binary.h	528;"	d
+B111111	binary.h	274;"	d
+B1111110	binary.h	401;"	d
+B11111100	binary.h	529;"	d
+B11111101	binary.h	530;"	d
+B1111111	binary.h	403;"	d
+B11111110	binary.h	531;"	d
+B11111111	binary.h	532;"	d
+BLACK	ssd1306.h	18;"	d
+BT_HEIGHT	icon.h	31;"	d
+BT_WIDTH	icon.h	30;"	d
+BUILD_DIRECTORIES	pca10028/armgcc/Makefile	/^BUILD_DIRECTORIES := $(sort $(OBJECT_DIRECTORY) $(OUTPUT_BINARY_DIRECTORY) $(LISTING_DIRECTORY) )$/;"	m
+BUILD_DIRECTORIES	pca10036/armgcc/Makefile	/^BUILD_DIRECTORIES := $(sort $(OBJECT_DIRECTORY) $(OUTPUT_BINARY_DIRECTORY) $(LISTING_DIRECTORY) )$/;"	m
+BUILD_DIRECTORIES	pca10040/armgcc/Makefile	/^BUILD_DIRECTORIES := $(sort $(OBJECT_DIRECTORY) $(OUTPUT_BINARY_DIRECTORY) $(LISTING_DIRECTORY) )$/;"	m
+Binary_h	binary.h	21;"	d
+CC	pca10028/armgcc/Makefile	/^CC              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-gcc'$/;"	m
+CC	pca10036/armgcc/Makefile	/^CC              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-gcc'$/;"	m
+CC	pca10040/armgcc/Makefile	/^CC              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-gcc'$/;"	m
+CCM_AAR_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^CCM_AAR_IRQHandler$/;"	l
+CCM_AAR_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^CCM_AAR_IRQHandler$/;"	l
+CCM_AAR_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^CCM_AAR_IRQHandler$/;"	l
+CFLAGS	pca10028/armgcc/Makefile	/^CFLAGS  = -DNRF51$/;"	m
+CFLAGS	pca10036/armgcc/Makefile	/^CFLAGS  = -DNRF52_PAN_16$/;"	m
+CFLAGS	pca10040/armgcc/Makefile	/^CFLAGS  = -DNRF52_PAN_12$/;"	m
+CLOCK_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	35;"	d
+CLOCK_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	35;"	d
+CLOCK_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	35;"	d
+CLOCK_CONFIG_LF_SRC	config/uart_pca10028/nrf_drv_config.h	34;"	d
+CLOCK_CONFIG_LF_SRC	config/uart_pca10036/nrf_drv_config.h	34;"	d
+CLOCK_CONFIG_LF_SRC	config/uart_pca10040/nrf_drv_config.h	34;"	d
+CLOCK_CONFIG_XTAL_FREQ	config/uart_pca10028/nrf_drv_config.h	33;"	d
+CLOCK_CONFIG_XTAL_FREQ	config/uart_pca10036/nrf_drv_config.h	33;"	d
+CLOCK_CONFIG_XTAL_FREQ	config/uart_pca10040/nrf_drv_config.h	33;"	d
+CLOCK_ENABLED	config/uart_pca10028/nrf_drv_config.h	30;"	d
+CLOCK_ENABLED	config/uart_pca10036/nrf_drv_config.h	30;"	d
+CLOCK_ENABLED	config/uart_pca10040/nrf_drv_config.h	30;"	d
+COMP_CONFIG_HYST	config/uart_pca10028/nrf_drv_config.h	413;"	d
+COMP_CONFIG_HYST	config/uart_pca10036/nrf_drv_config.h	413;"	d
+COMP_CONFIG_HYST	config/uart_pca10040/nrf_drv_config.h	413;"	d
+COMP_CONFIG_INPUT	config/uart_pca10028/nrf_drv_config.h	416;"	d
+COMP_CONFIG_INPUT	config/uart_pca10036/nrf_drv_config.h	416;"	d
+COMP_CONFIG_INPUT	config/uart_pca10040/nrf_drv_config.h	416;"	d
+COMP_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	415;"	d
+COMP_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	415;"	d
+COMP_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	415;"	d
+COMP_CONFIG_ISOURCE	config/uart_pca10028/nrf_drv_config.h	414;"	d
+COMP_CONFIG_ISOURCE	config/uart_pca10036/nrf_drv_config.h	414;"	d
+COMP_CONFIG_ISOURCE	config/uart_pca10040/nrf_drv_config.h	414;"	d
+COMP_CONFIG_MAIN_MODE	config/uart_pca10028/nrf_drv_config.h	411;"	d
+COMP_CONFIG_MAIN_MODE	config/uart_pca10036/nrf_drv_config.h	411;"	d
+COMP_CONFIG_MAIN_MODE	config/uart_pca10040/nrf_drv_config.h	411;"	d
+COMP_CONFIG_REF	config/uart_pca10028/nrf_drv_config.h	410;"	d
+COMP_CONFIG_REF	config/uart_pca10036/nrf_drv_config.h	410;"	d
+COMP_CONFIG_REF	config/uart_pca10040/nrf_drv_config.h	410;"	d
+COMP_CONFIG_SPEED_MODE	config/uart_pca10028/nrf_drv_config.h	412;"	d
+COMP_CONFIG_SPEED_MODE	config/uart_pca10036/nrf_drv_config.h	412;"	d
+COMP_CONFIG_SPEED_MODE	config/uart_pca10040/nrf_drv_config.h	412;"	d
+COMP_ENABLED	config/uart_pca10028/nrf_drv_config.h	407;"	d
+COMP_ENABLED	config/uart_pca10036/nrf_drv_config.h	407;"	d
+COMP_ENABLED	config/uart_pca10040/nrf_drv_config.h	407;"	d
+COMP_LPCOMP_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^COMP_LPCOMP_IRQHandler$/;"	l
+COMP_LPCOMP_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^COMP_LPCOMP_IRQHandler$/;"	l
+C_OBJECTS	pca10028/armgcc/Makefile	/^C_OBJECTS = $(addprefix $(OBJECT_DIRECTORY)\/, $(C_SOURCE_FILE_NAMES:.c=.o) )$/;"	m
+C_OBJECTS	pca10036/armgcc/Makefile	/^C_OBJECTS = $(addprefix $(OBJECT_DIRECTORY)\/, $(C_SOURCE_FILE_NAMES:.c=.o) )$/;"	m
+C_OBJECTS	pca10040/armgcc/Makefile	/^C_OBJECTS = $(addprefix $(OBJECT_DIRECTORY)\/, $(C_SOURCE_FILE_NAMES:.c=.o) )$/;"	m
+C_PATHS	pca10028/armgcc/Makefile	/^C_PATHS = $(call remduplicates, $(dir $(C_SOURCE_FILES) ) )$/;"	m
+C_PATHS	pca10036/armgcc/Makefile	/^C_PATHS = $(call remduplicates, $(dir $(C_SOURCE_FILES) ) )$/;"	m
+C_PATHS	pca10040/armgcc/Makefile	/^C_PATHS = $(call remduplicates, $(dir $(C_SOURCE_FILES) ) )$/;"	m
+C_SOURCE_FILE_NAMES	pca10028/armgcc/Makefile	/^C_SOURCE_FILE_NAMES = $(notdir $(C_SOURCE_FILES))$/;"	m
+C_SOURCE_FILE_NAMES	pca10036/armgcc/Makefile	/^C_SOURCE_FILE_NAMES = $(notdir $(C_SOURCE_FILES))$/;"	m
+C_SOURCE_FILE_NAMES	pca10040/armgcc/Makefile	/^C_SOURCE_FILE_NAMES = $(notdir $(C_SOURCE_FILES))$/;"	m
+DELAY_MS	main.c	38;"	d	file:
+DELTAY	main.c	216;"	d	file:
+Default_Handler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^Default_Handler PROC$/;"	l
+Default_Handler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Default_Handler PROC$/;"	l
+Default_Handler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Default_Handler PROC$/;"	l
+ECB_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^ECB_IRQHandler$/;"	l
+ECB_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^ECB_IRQHandler$/;"	l
+ECB_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^ECB_IRQHandler$/;"	l
+EGU_ENABLED	config/uart_pca10028/nrf_drv_config.h	440;"	d
+EGU_ENABLED	config/uart_pca10036/nrf_drv_config.h	440;"	d
+EGU_ENABLED	config/uart_pca10040/nrf_drv_config.h	440;"	d
+FONT5X7_H	glcdfont.c	2;"	d	file:
+FPU_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^FPU_IRQHandler$/;"	l
+FPU_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^FPU_IRQHandler$/;"	l
+GPIOTE_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	43;"	d
+GPIOTE_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	43;"	d
+GPIOTE_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	43;"	d
+GPIOTE_CONFIG_NUM_OF_LOW_POWER_EVENTS	config/uart_pca10028/nrf_drv_config.h	44;"	d
+GPIOTE_CONFIG_NUM_OF_LOW_POWER_EVENTS	config/uart_pca10036/nrf_drv_config.h	44;"	d
+GPIOTE_CONFIG_NUM_OF_LOW_POWER_EVENTS	config/uart_pca10040/nrf_drv_config.h	44;"	d
+GPIOTE_CONFIG_USE_SWI_EGU	config/uart_pca10028/nrf_drv_config.h	42;"	d
+GPIOTE_CONFIG_USE_SWI_EGU	config/uart_pca10036/nrf_drv_config.h	42;"	d
+GPIOTE_CONFIG_USE_SWI_EGU	config/uart_pca10040/nrf_drv_config.h	42;"	d
+GPIOTE_ENABLED	config/uart_pca10028/nrf_drv_config.h	39;"	d
+GPIOTE_ENABLED	config/uart_pca10036/nrf_drv_config.h	39;"	d
+GPIOTE_ENABLED	config/uart_pca10040/nrf_drv_config.h	39;"	d
+GPIOTE_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^GPIOTE_IRQHandler$/;"	l
+GPIOTE_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^GPIOTE_IRQHandler$/;"	l
+GPIOTE_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^GPIOTE_IRQHandler$/;"	l
+HEIGHT	ssd1306.c	/^static int16_t _width, _height, WIDTH, HEIGHT, cursor_x, cursor_y;$/;"	v	file:
+Heap_Mem	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^Heap_Mem        SPACE   Heap_Size$/;"	l
+Heap_Mem	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Heap_Mem        SPACE   Heap_Size$/;"	l
+Heap_Mem	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Heap_Mem        SPACE   Heap_Size$/;"	l
+Heap_Size	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^Heap_Size       EQU     2048$/;"	d
+Heap_Size	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^Heap_Size       EQU     __HEAP_SIZE$/;"	d
+Heap_Size	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Heap_Size       EQU     8192$/;"	d
+Heap_Size	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Heap_Size       EQU     __HEAP_SIZE$/;"	d
+Heap_Size	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Heap_Size       EQU     8192$/;"	d
+Heap_Size	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Heap_Size       EQU     __HEAP_SIZE$/;"	d
+I2S_CONFIG_ALIGN	config/uart_pca10028/nrf_drv_config.h	455;"	d
+I2S_CONFIG_ALIGN	config/uart_pca10036/nrf_drv_config.h	455;"	d
+I2S_CONFIG_ALIGN	config/uart_pca10040/nrf_drv_config.h	455;"	d
+I2S_CONFIG_CHANNELS	config/uart_pca10028/nrf_drv_config.h	457;"	d
+I2S_CONFIG_CHANNELS	config/uart_pca10036/nrf_drv_config.h	457;"	d
+I2S_CONFIG_CHANNELS	config/uart_pca10040/nrf_drv_config.h	457;"	d
+I2S_CONFIG_FORMAT	config/uart_pca10028/nrf_drv_config.h	454;"	d
+I2S_CONFIG_FORMAT	config/uart_pca10036/nrf_drv_config.h	454;"	d
+I2S_CONFIG_FORMAT	config/uart_pca10040/nrf_drv_config.h	454;"	d
+I2S_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	452;"	d
+I2S_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	452;"	d
+I2S_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	452;"	d
+I2S_CONFIG_LRCK_PIN	config/uart_pca10028/nrf_drv_config.h	448;"	d
+I2S_CONFIG_LRCK_PIN	config/uart_pca10036/nrf_drv_config.h	448;"	d
+I2S_CONFIG_LRCK_PIN	config/uart_pca10040/nrf_drv_config.h	448;"	d
+I2S_CONFIG_MASTER	config/uart_pca10028/nrf_drv_config.h	453;"	d
+I2S_CONFIG_MASTER	config/uart_pca10036/nrf_drv_config.h	453;"	d
+I2S_CONFIG_MASTER	config/uart_pca10040/nrf_drv_config.h	453;"	d
+I2S_CONFIG_MCK_PIN	config/uart_pca10028/nrf_drv_config.h	449;"	d
+I2S_CONFIG_MCK_PIN	config/uart_pca10036/nrf_drv_config.h	449;"	d
+I2S_CONFIG_MCK_PIN	config/uart_pca10040/nrf_drv_config.h	449;"	d
+I2S_CONFIG_MCK_SETUP	config/uart_pca10028/nrf_drv_config.h	458;"	d
+I2S_CONFIG_MCK_SETUP	config/uart_pca10036/nrf_drv_config.h	458;"	d
+I2S_CONFIG_MCK_SETUP	config/uart_pca10040/nrf_drv_config.h	458;"	d
+I2S_CONFIG_RATIO	config/uart_pca10028/nrf_drv_config.h	459;"	d
+I2S_CONFIG_RATIO	config/uart_pca10036/nrf_drv_config.h	459;"	d
+I2S_CONFIG_RATIO	config/uart_pca10040/nrf_drv_config.h	459;"	d
+I2S_CONFIG_SCK_PIN	config/uart_pca10028/nrf_drv_config.h	447;"	d
+I2S_CONFIG_SCK_PIN	config/uart_pca10036/nrf_drv_config.h	447;"	d
+I2S_CONFIG_SCK_PIN	config/uart_pca10040/nrf_drv_config.h	447;"	d
+I2S_CONFIG_SDIN_PIN	config/uart_pca10028/nrf_drv_config.h	451;"	d
+I2S_CONFIG_SDIN_PIN	config/uart_pca10036/nrf_drv_config.h	451;"	d
+I2S_CONFIG_SDIN_PIN	config/uart_pca10040/nrf_drv_config.h	451;"	d
+I2S_CONFIG_SDOUT_PIN	config/uart_pca10028/nrf_drv_config.h	450;"	d
+I2S_CONFIG_SDOUT_PIN	config/uart_pca10036/nrf_drv_config.h	450;"	d
+I2S_CONFIG_SDOUT_PIN	config/uart_pca10040/nrf_drv_config.h	450;"	d
+I2S_CONFIG_SWIDTH	config/uart_pca10028/nrf_drv_config.h	456;"	d
+I2S_CONFIG_SWIDTH	config/uart_pca10036/nrf_drv_config.h	456;"	d
+I2S_CONFIG_SWIDTH	config/uart_pca10040/nrf_drv_config.h	456;"	d
+I2S_ENABLED	config/uart_pca10028/nrf_drv_config.h	444;"	d
+I2S_ENABLED	config/uart_pca10036/nrf_drv_config.h	444;"	d
+I2S_ENABLED	config/uart_pca10040/nrf_drv_config.h	444;"	d
+I2S_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^I2S_IRQHandler$/;"	l
+I2S_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^I2S_IRQHandler$/;"	l
+INC_PATHS	pca10028/armgcc/Makefile	/^INC_PATHS  = -I$(abspath ..\/..\/config\/uart_pca10028)$/;"	m
+INC_PATHS	pca10036/armgcc/Makefile	/^INC_PATHS  = -I$(abspath ..\/..\/config\/uart_pca10036)$/;"	m
+INC_PATHS	pca10040/armgcc/Makefile	/^INC_PATHS  = -I$(abspath ..\/..\/config\/uart_pca10040)$/;"	m
+INVERSE	ssd1306.h	20;"	d
+LD	pca10028/armgcc/Makefile	/^LD              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-ld'$/;"	m
+LD	pca10036/armgcc/Makefile	/^LD              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-ld'$/;"	m
+LD	pca10040/armgcc/Makefile	/^LD              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-ld'$/;"	m
+LINKER_SCRIPT	pca10028/armgcc/Makefile	/^nrf51422_xxac: LINKER_SCRIPT=uart_gcc_nrf51.ld$/;"	m
+LINKER_SCRIPT	pca10036/armgcc/Makefile	/^nrf52832_xxaa: LINKER_SCRIPT=uart_gcc_nrf52.ld$/;"	m
+LINKER_SCRIPT	pca10040/armgcc/Makefile	/^nrf52832_xxaa: LINKER_SCRIPT=uart_gcc_nrf52.ld$/;"	m
+LISTING_DIRECTORY	pca10028/armgcc/Makefile	/^LISTING_DIRECTORY = $(OBJECT_DIRECTORY)$/;"	m
+LISTING_DIRECTORY	pca10036/armgcc/Makefile	/^LISTING_DIRECTORY = $(OBJECT_DIRECTORY)$/;"	m
+LISTING_DIRECTORY	pca10040/armgcc/Makefile	/^LISTING_DIRECTORY = $(OBJECT_DIRECTORY)$/;"	m
+LOGO16_GLCD_HEIGHT	main.c	53;"	d	file:
+LOGO16_GLCD_WIDTH	main.c	54;"	d	file:
+LPCOMP_CONFIG_DETECTION	config/uart_pca10028/nrf_drv_config.h	424;"	d
+LPCOMP_CONFIG_DETECTION	config/uart_pca10036/nrf_drv_config.h	424;"	d
+LPCOMP_CONFIG_DETECTION	config/uart_pca10040/nrf_drv_config.h	424;"	d
+LPCOMP_CONFIG_INPUT	config/uart_pca10028/nrf_drv_config.h	426;"	d
+LPCOMP_CONFIG_INPUT	config/uart_pca10036/nrf_drv_config.h	426;"	d
+LPCOMP_CONFIG_INPUT	config/uart_pca10040/nrf_drv_config.h	426;"	d
+LPCOMP_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	425;"	d
+LPCOMP_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	425;"	d
+LPCOMP_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	425;"	d
+LPCOMP_CONFIG_REFERENCE	config/uart_pca10028/nrf_drv_config.h	423;"	d
+LPCOMP_CONFIG_REFERENCE	config/uart_pca10036/nrf_drv_config.h	423;"	d
+LPCOMP_CONFIG_REFERENCE	config/uart_pca10040/nrf_drv_config.h	423;"	d
+LPCOMP_ENABLED	config/uart_pca10028/nrf_drv_config.h	420;"	d
+LPCOMP_ENABLED	config/uart_pca10036/nrf_drv_config.h	420;"	d
+LPCOMP_ENABLED	config/uart_pca10040/nrf_drv_config.h	420;"	d
+LPCOMP_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^LPCOMP_IRQHandler$/;"	l
+MAKEFILE_DIR	pca10028/armgcc/Makefile	/^MAKEFILE_DIR := $(dir $(MAKEFILE_NAME) ) $/;"	m
+MAKEFILE_DIR	pca10036/armgcc/Makefile	/^MAKEFILE_DIR := $(dir $(MAKEFILE_NAME) ) $/;"	m
+MAKEFILE_DIR	pca10040/armgcc/Makefile	/^MAKEFILE_DIR := $(dir $(MAKEFILE_NAME) ) $/;"	m
+MAKEFILE_NAME	pca10028/armgcc/Makefile	/^MAKEFILE_NAME := $(MAKEFILE_LIST)$/;"	m
+MAKEFILE_NAME	pca10036/armgcc/Makefile	/^MAKEFILE_NAME := $(MAKEFILE_LIST)$/;"	m
+MAKEFILE_NAME	pca10040/armgcc/Makefile	/^MAKEFILE_NAME := $(MAKEFILE_LIST)$/;"	m
+MK	pca10028/armgcc/Makefile	/^MK := mkdir$/;"	m
+MK	pca10036/armgcc/Makefile	/^MK := mkdir$/;"	m
+MK	pca10040/armgcc/Makefile	/^MK := mkdir$/;"	m
+MWU_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^MWU_IRQHandler$/;"	l
+MWU_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^MWU_IRQHandler$/;"	l
+NFCT_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^NFCT_IRQHandler$/;"	l
+NFCT_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^NFCT_IRQHandler$/;"	l
+NM	pca10028/armgcc/Makefile	/^NM              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-nm'$/;"	m
+NM	pca10036/armgcc/Makefile	/^NM              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-nm'$/;"	m
+NM	pca10040/armgcc/Makefile	/^NM              := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-nm'$/;"	m
+NMI_Handler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^NMI_Handler     PROC$/;"	l
+NMI_Handler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^NMI_Handler     PROC$/;"	l
+NMI_Handler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^NMI_Handler     PROC$/;"	l
+NO_ECHO	pca10028/armgcc/Makefile	/^NO_ECHO := $/;"	m
+NO_ECHO	pca10028/armgcc/Makefile	/^NO_ECHO := @$/;"	m
+NO_ECHO	pca10036/armgcc/Makefile	/^NO_ECHO := $/;"	m
+NO_ECHO	pca10036/armgcc/Makefile	/^NO_ECHO := @$/;"	m
+NO_ECHO	pca10040/armgcc/Makefile	/^NO_ECHO := $/;"	m
+NO_ECHO	pca10040/armgcc/Makefile	/^NO_ECHO := @$/;"	m
+NRF_DRV_CONFIG_H	config/uart_pca10028/nrf_drv_config.h	14;"	d
+NRF_DRV_CONFIG_H	config/uart_pca10036/nrf_drv_config.h	14;"	d
+NRF_DRV_CONFIG_H	config/uart_pca10040/nrf_drv_config.h	14;"	d
+NRF_MAXIMUM_LATENCY_US	config/uart_pca10028/nrf_drv_config.h	140;"	d
+NRF_MAXIMUM_LATENCY_US	config/uart_pca10036/nrf_drv_config.h	140;"	d
+NRF_MAXIMUM_LATENCY_US	config/uart_pca10040/nrf_drv_config.h	140;"	d
+NRF_POWER_RAMONB_ADDRESS	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^NRF_POWER_RAMONB_ADDRESS             EQU   0x40000554  ; NRF_POWER->RAMONB address$/;"	d
+NRF_POWER_RAMON_ADDRESS	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^NRF_POWER_RAMON_ADDRESS              EQU   0x40000524  ; NRF_POWER->RAMON address$/;"	d
+NRF_POWER_RAMONx_RAMxON_ONMODE_Msk	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^NRF_POWER_RAMONx_RAMxON_ONMODE_Msk   EQU   0x3         ; All RAM blocks on in onmode bit mask$/;"	d
+NUMFLAKES	main.c	213;"	d	file:
+OBJCOPY	pca10028/armgcc/Makefile	/^OBJCOPY         := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-objcopy'$/;"	m
+OBJCOPY	pca10036/armgcc/Makefile	/^OBJCOPY         := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-objcopy'$/;"	m
+OBJCOPY	pca10040/armgcc/Makefile	/^OBJCOPY         := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-objcopy'$/;"	m
+OBJDUMP	pca10028/armgcc/Makefile	/^OBJDUMP         := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-objdump'$/;"	m
+OBJDUMP	pca10036/armgcc/Makefile	/^OBJDUMP         := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-objdump'$/;"	m
+OBJDUMP	pca10040/armgcc/Makefile	/^OBJDUMP         := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-objdump'$/;"	m
+OBJECTS	pca10028/armgcc/Makefile	/^OBJECTS = $(C_OBJECTS) $(ASM_OBJECTS)$/;"	m
+OBJECTS	pca10036/armgcc/Makefile	/^OBJECTS = $(C_OBJECTS) $(ASM_OBJECTS)$/;"	m
+OBJECTS	pca10040/armgcc/Makefile	/^OBJECTS = $(C_OBJECTS) $(ASM_OBJECTS)$/;"	m
+OBJECT_DIRECTORY	pca10028/armgcc/Makefile	/^OBJECT_DIRECTORY = _build$/;"	m
+OBJECT_DIRECTORY	pca10036/armgcc/Makefile	/^OBJECT_DIRECTORY = _build$/;"	m
+OBJECT_DIRECTORY	pca10040/armgcc/Makefile	/^OBJECT_DIRECTORY = _build$/;"	m
+OUTPUT_BINARY_DIRECTORY	pca10028/armgcc/Makefile	/^OUTPUT_BINARY_DIRECTORY = $(OBJECT_DIRECTORY)$/;"	m
+OUTPUT_BINARY_DIRECTORY	pca10036/armgcc/Makefile	/^OUTPUT_BINARY_DIRECTORY = $(OBJECT_DIRECTORY)$/;"	m
+OUTPUT_BINARY_DIRECTORY	pca10040/armgcc/Makefile	/^OUTPUT_BINARY_DIRECTORY = $(OBJECT_DIRECTORY)$/;"	m
+OUTPUT_FILENAME	pca10028/armgcc/Makefile	/^nrf51422_xxac: OUTPUT_FILENAME := nrf51422_xxac$/;"	m
+OUTPUT_FILENAME	pca10036/armgcc/Makefile	/^nrf52832_xxaa: OUTPUT_FILENAME := nrf52832_xxaa$/;"	m
+OUTPUT_FILENAME	pca10040/armgcc/Makefile	/^nrf52832_xxaa: OUTPUT_FILENAME := nrf52832_xxaa$/;"	m
+PDM_CONFIG_CLOCK_FREQ	config/uart_pca10028/nrf_drv_config.h	402;"	d
+PDM_CONFIG_CLOCK_FREQ	config/uart_pca10036/nrf_drv_config.h	402;"	d
+PDM_CONFIG_CLOCK_FREQ	config/uart_pca10040/nrf_drv_config.h	402;"	d
+PDM_CONFIG_EDGE	config/uart_pca10028/nrf_drv_config.h	401;"	d
+PDM_CONFIG_EDGE	config/uart_pca10036/nrf_drv_config.h	401;"	d
+PDM_CONFIG_EDGE	config/uart_pca10040/nrf_drv_config.h	401;"	d
+PDM_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	403;"	d
+PDM_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	403;"	d
+PDM_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	403;"	d
+PDM_CONFIG_MODE	config/uart_pca10028/nrf_drv_config.h	400;"	d
+PDM_CONFIG_MODE	config/uart_pca10036/nrf_drv_config.h	400;"	d
+PDM_CONFIG_MODE	config/uart_pca10040/nrf_drv_config.h	400;"	d
+PDM_ENABLED	config/uart_pca10028/nrf_drv_config.h	397;"	d
+PDM_ENABLED	config/uart_pca10036/nrf_drv_config.h	397;"	d
+PDM_ENABLED	config/uart_pca10040/nrf_drv_config.h	397;"	d
+PDM_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^PDM_IRQHandler$/;"	l
+PDM_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^PDM_IRQHandler$/;"	l
+PERIPHERAL_RESOURCE_SHARING_ENABLED	config/uart_pca10028/nrf_drv_config.h	27;"	d
+PERIPHERAL_RESOURCE_SHARING_ENABLED	config/uart_pca10036/nrf_drv_config.h	27;"	d
+PERIPHERAL_RESOURCE_SHARING_ENABLED	config/uart_pca10040/nrf_drv_config.h	27;"	d
+POWER_CLOCK_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^POWER_CLOCK_IRQHandler$/;"	l
+POWER_CLOCK_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^POWER_CLOCK_IRQHandler$/;"	l
+POWER_CLOCK_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^POWER_CLOCK_IRQHandler$/;"	l
+PROGMEM	glcdfont.c	/^static const unsigned char font[] PROGMEM = {$/;"	v	file:
+PROGMEM	glcdfont.c	8;"	d	file:
+PROJECT_NAME	pca10028/armgcc/Makefile	/^PROJECT_NAME := uart_pca10028$/;"	m
+PROJECT_NAME	pca10036/armgcc/Makefile	/^PROJECT_NAME := uart_pca10036$/;"	m
+PROJECT_NAME	pca10040/armgcc/Makefile	/^PROJECT_NAME := uart_pca10040$/;"	m
+PWM0_CONFIG_BASE_CLOCK	config/uart_pca10028/nrf_drv_config.h	161;"	d
+PWM0_CONFIG_BASE_CLOCK	config/uart_pca10036/nrf_drv_config.h	161;"	d
+PWM0_CONFIG_BASE_CLOCK	config/uart_pca10040/nrf_drv_config.h	161;"	d
+PWM0_CONFIG_COUNT_MODE	config/uart_pca10028/nrf_drv_config.h	162;"	d
+PWM0_CONFIG_COUNT_MODE	config/uart_pca10036/nrf_drv_config.h	162;"	d
+PWM0_CONFIG_COUNT_MODE	config/uart_pca10040/nrf_drv_config.h	162;"	d
+PWM0_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	160;"	d
+PWM0_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	160;"	d
+PWM0_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	160;"	d
+PWM0_CONFIG_LOAD_MODE	config/uart_pca10028/nrf_drv_config.h	164;"	d
+PWM0_CONFIG_LOAD_MODE	config/uart_pca10036/nrf_drv_config.h	164;"	d
+PWM0_CONFIG_LOAD_MODE	config/uart_pca10040/nrf_drv_config.h	164;"	d
+PWM0_CONFIG_OUT0_PIN	config/uart_pca10028/nrf_drv_config.h	156;"	d
+PWM0_CONFIG_OUT0_PIN	config/uart_pca10036/nrf_drv_config.h	156;"	d
+PWM0_CONFIG_OUT0_PIN	config/uart_pca10040/nrf_drv_config.h	156;"	d
+PWM0_CONFIG_OUT1_PIN	config/uart_pca10028/nrf_drv_config.h	157;"	d
+PWM0_CONFIG_OUT1_PIN	config/uart_pca10036/nrf_drv_config.h	157;"	d
+PWM0_CONFIG_OUT1_PIN	config/uart_pca10040/nrf_drv_config.h	157;"	d
+PWM0_CONFIG_OUT2_PIN	config/uart_pca10028/nrf_drv_config.h	158;"	d
+PWM0_CONFIG_OUT2_PIN	config/uart_pca10036/nrf_drv_config.h	158;"	d
+PWM0_CONFIG_OUT2_PIN	config/uart_pca10040/nrf_drv_config.h	158;"	d
+PWM0_CONFIG_OUT3_PIN	config/uart_pca10028/nrf_drv_config.h	159;"	d
+PWM0_CONFIG_OUT3_PIN	config/uart_pca10036/nrf_drv_config.h	159;"	d
+PWM0_CONFIG_OUT3_PIN	config/uart_pca10040/nrf_drv_config.h	159;"	d
+PWM0_CONFIG_STEP_MODE	config/uart_pca10028/nrf_drv_config.h	165;"	d
+PWM0_CONFIG_STEP_MODE	config/uart_pca10036/nrf_drv_config.h	165;"	d
+PWM0_CONFIG_STEP_MODE	config/uart_pca10040/nrf_drv_config.h	165;"	d
+PWM0_CONFIG_TOP_VALUE	config/uart_pca10028/nrf_drv_config.h	163;"	d
+PWM0_CONFIG_TOP_VALUE	config/uart_pca10036/nrf_drv_config.h	163;"	d
+PWM0_CONFIG_TOP_VALUE	config/uart_pca10040/nrf_drv_config.h	163;"	d
+PWM0_ENABLED	config/uart_pca10028/nrf_drv_config.h	153;"	d
+PWM0_ENABLED	config/uart_pca10036/nrf_drv_config.h	153;"	d
+PWM0_ENABLED	config/uart_pca10040/nrf_drv_config.h	153;"	d
+PWM0_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	167;"	d
+PWM0_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	167;"	d
+PWM0_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	167;"	d
+PWM0_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^PWM0_IRQHandler$/;"	l
+PWM0_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^PWM0_IRQHandler$/;"	l
+PWM1_CONFIG_BASE_CLOCK	config/uart_pca10028/nrf_drv_config.h	178;"	d
+PWM1_CONFIG_BASE_CLOCK	config/uart_pca10036/nrf_drv_config.h	178;"	d
+PWM1_CONFIG_BASE_CLOCK	config/uart_pca10040/nrf_drv_config.h	178;"	d
+PWM1_CONFIG_COUNT_MODE	config/uart_pca10028/nrf_drv_config.h	179;"	d
+PWM1_CONFIG_COUNT_MODE	config/uart_pca10036/nrf_drv_config.h	179;"	d
+PWM1_CONFIG_COUNT_MODE	config/uart_pca10040/nrf_drv_config.h	179;"	d
+PWM1_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	177;"	d
+PWM1_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	177;"	d
+PWM1_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	177;"	d
+PWM1_CONFIG_LOAD_MODE	config/uart_pca10028/nrf_drv_config.h	181;"	d
+PWM1_CONFIG_LOAD_MODE	config/uart_pca10036/nrf_drv_config.h	181;"	d
+PWM1_CONFIG_LOAD_MODE	config/uart_pca10040/nrf_drv_config.h	181;"	d
+PWM1_CONFIG_OUT0_PIN	config/uart_pca10028/nrf_drv_config.h	173;"	d
+PWM1_CONFIG_OUT0_PIN	config/uart_pca10036/nrf_drv_config.h	173;"	d
+PWM1_CONFIG_OUT0_PIN	config/uart_pca10040/nrf_drv_config.h	173;"	d
+PWM1_CONFIG_OUT1_PIN	config/uart_pca10028/nrf_drv_config.h	174;"	d
+PWM1_CONFIG_OUT1_PIN	config/uart_pca10036/nrf_drv_config.h	174;"	d
+PWM1_CONFIG_OUT1_PIN	config/uart_pca10040/nrf_drv_config.h	174;"	d
+PWM1_CONFIG_OUT2_PIN	config/uart_pca10028/nrf_drv_config.h	175;"	d
+PWM1_CONFIG_OUT2_PIN	config/uart_pca10036/nrf_drv_config.h	175;"	d
+PWM1_CONFIG_OUT2_PIN	config/uart_pca10040/nrf_drv_config.h	175;"	d
+PWM1_CONFIG_OUT3_PIN	config/uart_pca10028/nrf_drv_config.h	176;"	d
+PWM1_CONFIG_OUT3_PIN	config/uart_pca10036/nrf_drv_config.h	176;"	d
+PWM1_CONFIG_OUT3_PIN	config/uart_pca10040/nrf_drv_config.h	176;"	d
+PWM1_CONFIG_STEP_MODE	config/uart_pca10028/nrf_drv_config.h	182;"	d
+PWM1_CONFIG_STEP_MODE	config/uart_pca10036/nrf_drv_config.h	182;"	d
+PWM1_CONFIG_STEP_MODE	config/uart_pca10040/nrf_drv_config.h	182;"	d
+PWM1_CONFIG_TOP_VALUE	config/uart_pca10028/nrf_drv_config.h	180;"	d
+PWM1_CONFIG_TOP_VALUE	config/uart_pca10036/nrf_drv_config.h	180;"	d
+PWM1_CONFIG_TOP_VALUE	config/uart_pca10040/nrf_drv_config.h	180;"	d
+PWM1_ENABLED	config/uart_pca10028/nrf_drv_config.h	170;"	d
+PWM1_ENABLED	config/uart_pca10036/nrf_drv_config.h	170;"	d
+PWM1_ENABLED	config/uart_pca10040/nrf_drv_config.h	170;"	d
+PWM1_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	184;"	d
+PWM1_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	184;"	d
+PWM1_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	184;"	d
+PWM1_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^PWM1_IRQHandler$/;"	l
+PWM1_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^PWM1_IRQHandler$/;"	l
+PWM2_CONFIG_BASE_CLOCK	config/uart_pca10028/nrf_drv_config.h	195;"	d
+PWM2_CONFIG_BASE_CLOCK	config/uart_pca10036/nrf_drv_config.h	195;"	d
+PWM2_CONFIG_BASE_CLOCK	config/uart_pca10040/nrf_drv_config.h	195;"	d
+PWM2_CONFIG_COUNT_MODE	config/uart_pca10028/nrf_drv_config.h	196;"	d
+PWM2_CONFIG_COUNT_MODE	config/uart_pca10036/nrf_drv_config.h	196;"	d
+PWM2_CONFIG_COUNT_MODE	config/uart_pca10040/nrf_drv_config.h	196;"	d
+PWM2_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	194;"	d
+PWM2_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	194;"	d
+PWM2_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	194;"	d
+PWM2_CONFIG_LOAD_MODE	config/uart_pca10028/nrf_drv_config.h	198;"	d
+PWM2_CONFIG_LOAD_MODE	config/uart_pca10036/nrf_drv_config.h	198;"	d
+PWM2_CONFIG_LOAD_MODE	config/uart_pca10040/nrf_drv_config.h	198;"	d
+PWM2_CONFIG_OUT0_PIN	config/uart_pca10028/nrf_drv_config.h	190;"	d
+PWM2_CONFIG_OUT0_PIN	config/uart_pca10036/nrf_drv_config.h	190;"	d
+PWM2_CONFIG_OUT0_PIN	config/uart_pca10040/nrf_drv_config.h	190;"	d
+PWM2_CONFIG_OUT1_PIN	config/uart_pca10028/nrf_drv_config.h	191;"	d
+PWM2_CONFIG_OUT1_PIN	config/uart_pca10036/nrf_drv_config.h	191;"	d
+PWM2_CONFIG_OUT1_PIN	config/uart_pca10040/nrf_drv_config.h	191;"	d
+PWM2_CONFIG_OUT2_PIN	config/uart_pca10028/nrf_drv_config.h	192;"	d
+PWM2_CONFIG_OUT2_PIN	config/uart_pca10036/nrf_drv_config.h	192;"	d
+PWM2_CONFIG_OUT2_PIN	config/uart_pca10040/nrf_drv_config.h	192;"	d
+PWM2_CONFIG_OUT3_PIN	config/uart_pca10028/nrf_drv_config.h	193;"	d
+PWM2_CONFIG_OUT3_PIN	config/uart_pca10036/nrf_drv_config.h	193;"	d
+PWM2_CONFIG_OUT3_PIN	config/uart_pca10040/nrf_drv_config.h	193;"	d
+PWM2_CONFIG_STEP_MODE	config/uart_pca10028/nrf_drv_config.h	199;"	d
+PWM2_CONFIG_STEP_MODE	config/uart_pca10036/nrf_drv_config.h	199;"	d
+PWM2_CONFIG_STEP_MODE	config/uart_pca10040/nrf_drv_config.h	199;"	d
+PWM2_CONFIG_TOP_VALUE	config/uart_pca10028/nrf_drv_config.h	197;"	d
+PWM2_CONFIG_TOP_VALUE	config/uart_pca10036/nrf_drv_config.h	197;"	d
+PWM2_CONFIG_TOP_VALUE	config/uart_pca10040/nrf_drv_config.h	197;"	d
+PWM2_ENABLED	config/uart_pca10028/nrf_drv_config.h	187;"	d
+PWM2_ENABLED	config/uart_pca10036/nrf_drv_config.h	187;"	d
+PWM2_ENABLED	config/uart_pca10040/nrf_drv_config.h	187;"	d
+PWM2_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	201;"	d
+PWM2_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	201;"	d
+PWM2_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	201;"	d
+PWM2_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^PWM2_IRQHandler$/;"	l
+PWM2_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^PWM2_IRQHandler$/;"	l
+PWM_COUNT	config/uart_pca10028/nrf_drv_config.h	204;"	d
+PWM_COUNT	config/uart_pca10036/nrf_drv_config.h	204;"	d
+PWM_COUNT	config/uart_pca10040/nrf_drv_config.h	204;"	d
+PendSV_Handler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^PendSV_Handler  PROC$/;"	l
+PendSV_Handler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^PendSV_Handler  PROC$/;"	l
+PendSV_Handler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^PendSV_Handler  PROC$/;"	l
+PortMask	ssd1306.h	/^typedef uint32_t PortMask;$/;"	t
+PortReg	ssd1306.h	/^typedef volatile uint8_t PortReg;$/;"	t
+QDEC_CONFIG_DBFEN	config/uart_pca10028/nrf_drv_config.h	375;"	d
+QDEC_CONFIG_DBFEN	config/uart_pca10036/nrf_drv_config.h	375;"	d
+QDEC_CONFIG_DBFEN	config/uart_pca10040/nrf_drv_config.h	375;"	d
+QDEC_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	374;"	d
+QDEC_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	374;"	d
+QDEC_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	374;"	d
+QDEC_CONFIG_LEDPOL	config/uart_pca10028/nrf_drv_config.h	373;"	d
+QDEC_CONFIG_LEDPOL	config/uart_pca10036/nrf_drv_config.h	373;"	d
+QDEC_CONFIG_LEDPOL	config/uart_pca10040/nrf_drv_config.h	373;"	d
+QDEC_CONFIG_LEDPRE	config/uart_pca10028/nrf_drv_config.h	372;"	d
+QDEC_CONFIG_LEDPRE	config/uart_pca10036/nrf_drv_config.h	372;"	d
+QDEC_CONFIG_LEDPRE	config/uart_pca10040/nrf_drv_config.h	372;"	d
+QDEC_CONFIG_PIO_A	config/uart_pca10028/nrf_drv_config.h	369;"	d
+QDEC_CONFIG_PIO_A	config/uart_pca10036/nrf_drv_config.h	369;"	d
+QDEC_CONFIG_PIO_A	config/uart_pca10040/nrf_drv_config.h	369;"	d
+QDEC_CONFIG_PIO_B	config/uart_pca10028/nrf_drv_config.h	370;"	d
+QDEC_CONFIG_PIO_B	config/uart_pca10036/nrf_drv_config.h	370;"	d
+QDEC_CONFIG_PIO_B	config/uart_pca10040/nrf_drv_config.h	370;"	d
+QDEC_CONFIG_PIO_LED	config/uart_pca10028/nrf_drv_config.h	371;"	d
+QDEC_CONFIG_PIO_LED	config/uart_pca10036/nrf_drv_config.h	371;"	d
+QDEC_CONFIG_PIO_LED	config/uart_pca10040/nrf_drv_config.h	371;"	d
+QDEC_CONFIG_REPORTPER	config/uart_pca10028/nrf_drv_config.h	367;"	d
+QDEC_CONFIG_REPORTPER	config/uart_pca10036/nrf_drv_config.h	367;"	d
+QDEC_CONFIG_REPORTPER	config/uart_pca10040/nrf_drv_config.h	367;"	d
+QDEC_CONFIG_SAMPLEPER	config/uart_pca10028/nrf_drv_config.h	368;"	d
+QDEC_CONFIG_SAMPLEPER	config/uart_pca10036/nrf_drv_config.h	368;"	d
+QDEC_CONFIG_SAMPLEPER	config/uart_pca10040/nrf_drv_config.h	368;"	d
+QDEC_CONFIG_SAMPLE_INTEN	config/uart_pca10028/nrf_drv_config.h	376;"	d
+QDEC_CONFIG_SAMPLE_INTEN	config/uart_pca10036/nrf_drv_config.h	376;"	d
+QDEC_CONFIG_SAMPLE_INTEN	config/uart_pca10040/nrf_drv_config.h	376;"	d
+QDEC_ENABLED	config/uart_pca10028/nrf_drv_config.h	364;"	d
+QDEC_ENABLED	config/uart_pca10036/nrf_drv_config.h	364;"	d
+QDEC_ENABLED	config/uart_pca10040/nrf_drv_config.h	364;"	d
+QDEC_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^QDEC_IRQHandler$/;"	l
+QDEC_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^QDEC_IRQHandler$/;"	l
+QDEC_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^QDEC_IRQHandler$/;"	l
+RADIO_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^RADIO_IRQHandler$/;"	l
+RADIO_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^RADIO_IRQHandler$/;"	l
+RADIO_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^RADIO_IRQHandler$/;"	l
+RM	pca10028/armgcc/Makefile	/^RM := rm -rf$/;"	m
+RM	pca10036/armgcc/Makefile	/^RM := rm -rf$/;"	m
+RM	pca10040/armgcc/Makefile	/^RM := rm -rf$/;"	m
+RNG_CONFIG_ERROR_CORRECTION	config/uart_pca10028/nrf_drv_config.h	146;"	d
+RNG_CONFIG_ERROR_CORRECTION	config/uart_pca10036/nrf_drv_config.h	146;"	d
+RNG_CONFIG_ERROR_CORRECTION	config/uart_pca10040/nrf_drv_config.h	146;"	d
+RNG_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	148;"	d
+RNG_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	148;"	d
+RNG_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	148;"	d
+RNG_CONFIG_POOL_SIZE	config/uart_pca10028/nrf_drv_config.h	147;"	d
+RNG_CONFIG_POOL_SIZE	config/uart_pca10036/nrf_drv_config.h	147;"	d
+RNG_CONFIG_POOL_SIZE	config/uart_pca10040/nrf_drv_config.h	147;"	d
+RNG_ENABLED	config/uart_pca10028/nrf_drv_config.h	143;"	d
+RNG_ENABLED	config/uart_pca10036/nrf_drv_config.h	143;"	d
+RNG_ENABLED	config/uart_pca10040/nrf_drv_config.h	143;"	d
+RNG_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^RNG_IRQHandler$/;"	l
+RNG_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^RNG_IRQHandler$/;"	l
+RNG_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^RNG_IRQHandler$/;"	l
+RTC0_CONFIG_FREQUENCY	config/uart_pca10028/nrf_drv_config.h	110;"	d
+RTC0_CONFIG_FREQUENCY	config/uart_pca10036/nrf_drv_config.h	110;"	d
+RTC0_CONFIG_FREQUENCY	config/uart_pca10040/nrf_drv_config.h	110;"	d
+RTC0_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	111;"	d
+RTC0_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	111;"	d
+RTC0_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	111;"	d
+RTC0_CONFIG_RELIABLE	config/uart_pca10028/nrf_drv_config.h	112;"	d
+RTC0_CONFIG_RELIABLE	config/uart_pca10036/nrf_drv_config.h	112;"	d
+RTC0_CONFIG_RELIABLE	config/uart_pca10040/nrf_drv_config.h	112;"	d
+RTC0_ENABLED	config/uart_pca10028/nrf_drv_config.h	107;"	d
+RTC0_ENABLED	config/uart_pca10036/nrf_drv_config.h	107;"	d
+RTC0_ENABLED	config/uart_pca10040/nrf_drv_config.h	107;"	d
+RTC0_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	114;"	d
+RTC0_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	114;"	d
+RTC0_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	114;"	d
+RTC0_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^RTC0_IRQHandler$/;"	l
+RTC0_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^RTC0_IRQHandler$/;"	l
+RTC0_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^RTC0_IRQHandler$/;"	l
+RTC1_CONFIG_FREQUENCY	config/uart_pca10028/nrf_drv_config.h	120;"	d
+RTC1_CONFIG_FREQUENCY	config/uart_pca10036/nrf_drv_config.h	120;"	d
+RTC1_CONFIG_FREQUENCY	config/uart_pca10040/nrf_drv_config.h	120;"	d
+RTC1_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	121;"	d
+RTC1_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	121;"	d
+RTC1_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	121;"	d
+RTC1_CONFIG_RELIABLE	config/uart_pca10028/nrf_drv_config.h	122;"	d
+RTC1_CONFIG_RELIABLE	config/uart_pca10036/nrf_drv_config.h	122;"	d
+RTC1_CONFIG_RELIABLE	config/uart_pca10040/nrf_drv_config.h	122;"	d
+RTC1_ENABLED	config/uart_pca10028/nrf_drv_config.h	117;"	d
+RTC1_ENABLED	config/uart_pca10036/nrf_drv_config.h	117;"	d
+RTC1_ENABLED	config/uart_pca10040/nrf_drv_config.h	117;"	d
+RTC1_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	124;"	d
+RTC1_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	124;"	d
+RTC1_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	124;"	d
+RTC1_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^RTC1_IRQHandler$/;"	l
+RTC1_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^RTC1_IRQHandler$/;"	l
+RTC1_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^RTC1_IRQHandler$/;"	l
+RTC2_CONFIG_FREQUENCY	config/uart_pca10028/nrf_drv_config.h	130;"	d
+RTC2_CONFIG_FREQUENCY	config/uart_pca10036/nrf_drv_config.h	130;"	d
+RTC2_CONFIG_FREQUENCY	config/uart_pca10040/nrf_drv_config.h	130;"	d
+RTC2_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	131;"	d
+RTC2_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	131;"	d
+RTC2_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	131;"	d
+RTC2_CONFIG_RELIABLE	config/uart_pca10028/nrf_drv_config.h	132;"	d
+RTC2_CONFIG_RELIABLE	config/uart_pca10036/nrf_drv_config.h	132;"	d
+RTC2_CONFIG_RELIABLE	config/uart_pca10040/nrf_drv_config.h	132;"	d
+RTC2_ENABLED	config/uart_pca10028/nrf_drv_config.h	127;"	d
+RTC2_ENABLED	config/uart_pca10036/nrf_drv_config.h	127;"	d
+RTC2_ENABLED	config/uart_pca10040/nrf_drv_config.h	127;"	d
+RTC2_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	134;"	d
+RTC2_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	134;"	d
+RTC2_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	134;"	d
+RTC2_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^RTC2_IRQHandler$/;"	l
+RTC2_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^RTC2_IRQHandler$/;"	l
+RTC_COUNT	config/uart_pca10028/nrf_drv_config.h	138;"	d
+RTC_COUNT	config/uart_pca10036/nrf_drv_config.h	138;"	d
+RTC_COUNT	config/uart_pca10040/nrf_drv_config.h	138;"	d
+RTE_COMPONENTS_H	pca10028/arm5_no_packs/RTE/RTE_Components.h	11;"	d
+RTE_COMPONENTS_H	pca10036/arm5_no_packs/RTE/RTE_Components.h	11;"	d
+RTE_COMPONENTS_H	pca10040/arm5_no_packs/RTE/RTE_Components.h	11;"	d
+Reset_Handler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^Reset_Handler   PROC$/;"	l
+Reset_Handler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Reset_Handler   PROC$/;"	l
+Reset_Handler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Reset_Handler   PROC$/;"	l
+SAADC_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	393;"	d
+SAADC_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	393;"	d
+SAADC_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	393;"	d
+SAADC_CONFIG_OVERSAMPLE	config/uart_pca10028/nrf_drv_config.h	392;"	d
+SAADC_CONFIG_OVERSAMPLE	config/uart_pca10036/nrf_drv_config.h	392;"	d
+SAADC_CONFIG_OVERSAMPLE	config/uart_pca10040/nrf_drv_config.h	392;"	d
+SAADC_CONFIG_RESOLUTION	config/uart_pca10028/nrf_drv_config.h	391;"	d
+SAADC_CONFIG_RESOLUTION	config/uart_pca10036/nrf_drv_config.h	391;"	d
+SAADC_CONFIG_RESOLUTION	config/uart_pca10040/nrf_drv_config.h	391;"	d
+SAADC_ENABLED	config/uart_pca10028/nrf_drv_config.h	388;"	d
+SAADC_ENABLED	config/uart_pca10036/nrf_drv_config.h	388;"	d
+SAADC_ENABLED	config/uart_pca10040/nrf_drv_config.h	388;"	d
+SAADC_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SAADC_IRQHandler$/;"	l
+SAADC_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SAADC_IRQHandler$/;"	l
+SIZE	pca10028/armgcc/Makefile	/^SIZE            := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-size'$/;"	m
+SIZE	pca10036/armgcc/Makefile	/^SIZE            := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-size'$/;"	m
+SIZE	pca10040/armgcc/Makefile	/^SIZE            := '$(GNU_INSTALL_ROOT)\/bin\/$(GNU_PREFIX)-size'$/;"	m
+SPI0_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	215;"	d
+SPI0_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	215;"	d
+SPI0_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	215;"	d
+SPI0_CONFIG_MISO_PIN	config/uart_pca10028/nrf_drv_config.h	214;"	d
+SPI0_CONFIG_MISO_PIN	config/uart_pca10036/nrf_drv_config.h	214;"	d
+SPI0_CONFIG_MISO_PIN	config/uart_pca10040/nrf_drv_config.h	214;"	d
+SPI0_CONFIG_MOSI_PIN	config/uart_pca10028/nrf_drv_config.h	213;"	d
+SPI0_CONFIG_MOSI_PIN	config/uart_pca10036/nrf_drv_config.h	213;"	d
+SPI0_CONFIG_MOSI_PIN	config/uart_pca10040/nrf_drv_config.h	213;"	d
+SPI0_CONFIG_SCK_PIN	config/uart_pca10028/nrf_drv_config.h	212;"	d
+SPI0_CONFIG_SCK_PIN	config/uart_pca10036/nrf_drv_config.h	212;"	d
+SPI0_CONFIG_SCK_PIN	config/uart_pca10040/nrf_drv_config.h	212;"	d
+SPI0_ENABLED	config/uart_pca10028/nrf_drv_config.h	207;"	d
+SPI0_ENABLED	config/uart_pca10036/nrf_drv_config.h	207;"	d
+SPI0_ENABLED	config/uart_pca10040/nrf_drv_config.h	207;"	d
+SPI0_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	217;"	d
+SPI0_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	217;"	d
+SPI0_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	217;"	d
+SPI0_TWI0_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^SPI0_TWI0_IRQHandler$/;"	l
+SPI0_USE_EASY_DMA	config/uart_pca10028/nrf_drv_config.h	210;"	d
+SPI0_USE_EASY_DMA	config/uart_pca10036/nrf_drv_config.h	210;"	d
+SPI0_USE_EASY_DMA	config/uart_pca10040/nrf_drv_config.h	210;"	d
+SPI1_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	228;"	d
+SPI1_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	228;"	d
+SPI1_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	228;"	d
+SPI1_CONFIG_MISO_PIN	config/uart_pca10028/nrf_drv_config.h	227;"	d
+SPI1_CONFIG_MISO_PIN	config/uart_pca10036/nrf_drv_config.h	227;"	d
+SPI1_CONFIG_MISO_PIN	config/uart_pca10040/nrf_drv_config.h	227;"	d
+SPI1_CONFIG_MOSI_PIN	config/uart_pca10028/nrf_drv_config.h	226;"	d
+SPI1_CONFIG_MOSI_PIN	config/uart_pca10036/nrf_drv_config.h	226;"	d
+SPI1_CONFIG_MOSI_PIN	config/uart_pca10040/nrf_drv_config.h	226;"	d
+SPI1_CONFIG_SCK_PIN	config/uart_pca10028/nrf_drv_config.h	225;"	d
+SPI1_CONFIG_SCK_PIN	config/uart_pca10036/nrf_drv_config.h	225;"	d
+SPI1_CONFIG_SCK_PIN	config/uart_pca10040/nrf_drv_config.h	225;"	d
+SPI1_ENABLED	config/uart_pca10028/nrf_drv_config.h	220;"	d
+SPI1_ENABLED	config/uart_pca10036/nrf_drv_config.h	220;"	d
+SPI1_ENABLED	config/uart_pca10040/nrf_drv_config.h	220;"	d
+SPI1_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	230;"	d
+SPI1_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	230;"	d
+SPI1_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	230;"	d
+SPI1_TWI1_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^SPI1_TWI1_IRQHandler$/;"	l
+SPI1_USE_EASY_DMA	config/uart_pca10028/nrf_drv_config.h	223;"	d
+SPI1_USE_EASY_DMA	config/uart_pca10036/nrf_drv_config.h	223;"	d
+SPI1_USE_EASY_DMA	config/uart_pca10040/nrf_drv_config.h	223;"	d
+SPI2_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	241;"	d
+SPI2_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	241;"	d
+SPI2_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	241;"	d
+SPI2_CONFIG_MISO_PIN	config/uart_pca10028/nrf_drv_config.h	240;"	d
+SPI2_CONFIG_MISO_PIN	config/uart_pca10036/nrf_drv_config.h	240;"	d
+SPI2_CONFIG_MISO_PIN	config/uart_pca10040/nrf_drv_config.h	240;"	d
+SPI2_CONFIG_MOSI_PIN	config/uart_pca10028/nrf_drv_config.h	239;"	d
+SPI2_CONFIG_MOSI_PIN	config/uart_pca10036/nrf_drv_config.h	239;"	d
+SPI2_CONFIG_MOSI_PIN	config/uart_pca10040/nrf_drv_config.h	239;"	d
+SPI2_CONFIG_SCK_PIN	config/uart_pca10028/nrf_drv_config.h	238;"	d
+SPI2_CONFIG_SCK_PIN	config/uart_pca10036/nrf_drv_config.h	238;"	d
+SPI2_CONFIG_SCK_PIN	config/uart_pca10040/nrf_drv_config.h	238;"	d
+SPI2_ENABLED	config/uart_pca10028/nrf_drv_config.h	233;"	d
+SPI2_ENABLED	config/uart_pca10036/nrf_drv_config.h	233;"	d
+SPI2_ENABLED	config/uart_pca10040/nrf_drv_config.h	233;"	d
+SPI2_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	243;"	d
+SPI2_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	243;"	d
+SPI2_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	243;"	d
+SPI2_USE_EASY_DMA	config/uart_pca10028/nrf_drv_config.h	236;"	d
+SPI2_USE_EASY_DMA	config/uart_pca10036/nrf_drv_config.h	236;"	d
+SPI2_USE_EASY_DMA	config/uart_pca10040/nrf_drv_config.h	236;"	d
+SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler$/;"	l
+SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler$/;"	l
+SPIM1_SPIS1_TWIM1_TWIS1_SPI1_TWI1_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SPIM1_SPIS1_TWIM1_TWIS1_SPI1_TWI1_IRQHandler$/;"	l
+SPIM1_SPIS1_TWIM1_TWIS1_SPI1_TWI1_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SPIM1_SPIS1_TWIM1_TWIS1_SPI1_TWI1_IRQHandler$/;"	l
+SPIM2_SPIS2_SPI2_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SPIM2_SPIS2_SPI2_IRQHandler$/;"	l
+SPIM2_SPIS2_SPI2_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SPIM2_SPIS2_SPI2_IRQHandler$/;"	l
+SPIS0_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	255;"	d
+SPIS0_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	255;"	d
+SPIS0_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	255;"	d
+SPIS0_CONFIG_MISO_PIN	config/uart_pca10028/nrf_drv_config.h	254;"	d
+SPIS0_CONFIG_MISO_PIN	config/uart_pca10036/nrf_drv_config.h	254;"	d
+SPIS0_CONFIG_MISO_PIN	config/uart_pca10040/nrf_drv_config.h	254;"	d
+SPIS0_CONFIG_MOSI_PIN	config/uart_pca10028/nrf_drv_config.h	253;"	d
+SPIS0_CONFIG_MOSI_PIN	config/uart_pca10036/nrf_drv_config.h	253;"	d
+SPIS0_CONFIG_MOSI_PIN	config/uart_pca10040/nrf_drv_config.h	253;"	d
+SPIS0_CONFIG_SCK_PIN	config/uart_pca10028/nrf_drv_config.h	252;"	d
+SPIS0_CONFIG_SCK_PIN	config/uart_pca10036/nrf_drv_config.h	252;"	d
+SPIS0_CONFIG_SCK_PIN	config/uart_pca10040/nrf_drv_config.h	252;"	d
+SPIS0_ENABLED	config/uart_pca10028/nrf_drv_config.h	249;"	d
+SPIS0_ENABLED	config/uart_pca10036/nrf_drv_config.h	249;"	d
+SPIS0_ENABLED	config/uart_pca10040/nrf_drv_config.h	249;"	d
+SPIS0_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	257;"	d
+SPIS0_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	257;"	d
+SPIS0_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	257;"	d
+SPIS1_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	266;"	d
+SPIS1_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	266;"	d
+SPIS1_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	266;"	d
+SPIS1_CONFIG_MISO_PIN	config/uart_pca10028/nrf_drv_config.h	265;"	d
+SPIS1_CONFIG_MISO_PIN	config/uart_pca10036/nrf_drv_config.h	265;"	d
+SPIS1_CONFIG_MISO_PIN	config/uart_pca10040/nrf_drv_config.h	265;"	d
+SPIS1_CONFIG_MOSI_PIN	config/uart_pca10028/nrf_drv_config.h	264;"	d
+SPIS1_CONFIG_MOSI_PIN	config/uart_pca10036/nrf_drv_config.h	264;"	d
+SPIS1_CONFIG_MOSI_PIN	config/uart_pca10040/nrf_drv_config.h	264;"	d
+SPIS1_CONFIG_SCK_PIN	config/uart_pca10028/nrf_drv_config.h	263;"	d
+SPIS1_CONFIG_SCK_PIN	config/uart_pca10036/nrf_drv_config.h	263;"	d
+SPIS1_CONFIG_SCK_PIN	config/uart_pca10040/nrf_drv_config.h	263;"	d
+SPIS1_ENABLED	config/uart_pca10028/nrf_drv_config.h	260;"	d
+SPIS1_ENABLED	config/uart_pca10036/nrf_drv_config.h	260;"	d
+SPIS1_ENABLED	config/uart_pca10040/nrf_drv_config.h	260;"	d
+SPIS1_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	268;"	d
+SPIS1_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	268;"	d
+SPIS1_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	268;"	d
+SPIS2_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	277;"	d
+SPIS2_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	277;"	d
+SPIS2_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	277;"	d
+SPIS2_CONFIG_MISO_PIN	config/uart_pca10028/nrf_drv_config.h	276;"	d
+SPIS2_CONFIG_MISO_PIN	config/uart_pca10036/nrf_drv_config.h	276;"	d
+SPIS2_CONFIG_MISO_PIN	config/uart_pca10040/nrf_drv_config.h	276;"	d
+SPIS2_CONFIG_MOSI_PIN	config/uart_pca10028/nrf_drv_config.h	275;"	d
+SPIS2_CONFIG_MOSI_PIN	config/uart_pca10036/nrf_drv_config.h	275;"	d
+SPIS2_CONFIG_MOSI_PIN	config/uart_pca10040/nrf_drv_config.h	275;"	d
+SPIS2_CONFIG_SCK_PIN	config/uart_pca10028/nrf_drv_config.h	274;"	d
+SPIS2_CONFIG_SCK_PIN	config/uart_pca10036/nrf_drv_config.h	274;"	d
+SPIS2_CONFIG_SCK_PIN	config/uart_pca10040/nrf_drv_config.h	274;"	d
+SPIS2_ENABLED	config/uart_pca10028/nrf_drv_config.h	271;"	d
+SPIS2_ENABLED	config/uart_pca10036/nrf_drv_config.h	271;"	d
+SPIS2_ENABLED	config/uart_pca10040/nrf_drv_config.h	271;"	d
+SPIS2_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	279;"	d
+SPIS2_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	279;"	d
+SPIS2_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	279;"	d
+SPIS_COUNT	config/uart_pca10028/nrf_drv_config.h	282;"	d
+SPIS_COUNT	config/uart_pca10036/nrf_drv_config.h	282;"	d
+SPIS_COUNT	config/uart_pca10040/nrf_drv_config.h	282;"	d
+SPI_COUNT	config/uart_pca10028/nrf_drv_config.h	246;"	d
+SPI_COUNT	config/uart_pca10036/nrf_drv_config.h	246;"	d
+SPI_COUNT	config/uart_pca10040/nrf_drv_config.h	246;"	d
+SSD1306_128_64	ssd1306.h	36;"	d
+SSD1306_ACTIVATE_SCROLL	ssd1306.h	93;"	d
+SSD1306_CHARGEPUMP	ssd1306.h	87;"	d
+SSD1306_COLUMNADDR	ssd1306.h	79;"	d
+SSD1306_COMSCANDEC	ssd1306.h	83;"	d
+SSD1306_COMSCANINC	ssd1306.h	82;"	d
+SSD1306_CONFIG_CLK_PIN	main.c	77;"	d	file:
+SSD1306_CONFIG_CS_PIN	main.c	79;"	d	file:
+SSD1306_CONFIG_DC_PIN	main.c	80;"	d	file:
+SSD1306_CONFIG_MOSI_PIN	main.c	78;"	d	file:
+SSD1306_CONFIG_RST_PIN	main.c	81;"	d	file:
+SSD1306_CONFIG_SCL_PIN	main.c	83;"	d	file:
+SSD1306_CONFIG_SDA_PIN	main.c	84;"	d	file:
+SSD1306_CONFIG_VDD_PIN	main.c	76;"	d	file:
+SSD1306_DEACTIVATE_SCROLL	ssd1306.h	94;"	d
+SSD1306_DISPLAYALLON	ssd1306.h	57;"	d
+SSD1306_DISPLAYALLON_RESUME	ssd1306.h	56;"	d
+SSD1306_DISPLAYOFF	ssd1306.h	60;"	d
+SSD1306_DISPLAYON	ssd1306.h	61;"	d
+SSD1306_EXTERNALVCC	ssd1306.h	89;"	d
+SSD1306_I2C_ADDRESS	ssd1306.h	22;"	d
+SSD1306_INVERTDISPLAY	ssd1306.h	59;"	d
+SSD1306_LCDHEIGHT	ssd1306.h	44;"	d
+SSD1306_LCDHEIGHT	ssd1306.h	48;"	d
+SSD1306_LCDHEIGHT	ssd1306.h	52;"	d
+SSD1306_LCDWIDTH	ssd1306.h	43;"	d
+SSD1306_LCDWIDTH	ssd1306.h	47;"	d
+SSD1306_LCDWIDTH	ssd1306.h	51;"	d
+SSD1306_LEFT_HORIZONTAL_SCROLL	ssd1306.h	97;"	d
+SSD1306_MEMORYMODE	ssd1306.h	78;"	d
+SSD1306_NORMALDISPLAY	ssd1306.h	58;"	d
+SSD1306_PAGEADDR	ssd1306.h	80;"	d
+SSD1306_RIGHT_HORIZONTAL_SCROLL	ssd1306.h	96;"	d
+SSD1306_SEGREMAP	ssd1306.h	85;"	d
+SSD1306_SETCOMPINS	ssd1306.h	64;"	d
+SSD1306_SETCONTRAST	ssd1306.h	55;"	d
+SSD1306_SETDISPLAYCLOCKDIV	ssd1306.h	68;"	d
+SSD1306_SETDISPLAYOFFSET	ssd1306.h	63;"	d
+SSD1306_SETHIGHCOLUMN	ssd1306.h	74;"	d
+SSD1306_SETLOWCOLUMN	ssd1306.h	73;"	d
+SSD1306_SETMULTIPLEX	ssd1306.h	71;"	d
+SSD1306_SETPRECHARGE	ssd1306.h	69;"	d
+SSD1306_SETSTARTLINE	ssd1306.h	76;"	d
+SSD1306_SETVCOMDETECT	ssd1306.h	66;"	d
+SSD1306_SET_VERTICAL_SCROLL_AREA	ssd1306.h	95;"	d
+SSD1306_SWITCHCAPVCC	ssd1306.h	90;"	d
+SSD1306_VERTICAL_AND_LEFT_HORIZONTAL_SCROLL	ssd1306.h	99;"	d
+SSD1306_VERTICAL_AND_RIGHT_HORIZONTAL_SCROLL	ssd1306.h	98;"	d
+SVC_Handler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^SVC_Handler     PROC$/;"	l
+SVC_Handler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SVC_Handler     PROC$/;"	l
+SVC_Handler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SVC_Handler     PROC$/;"	l
+SWI0_EGU0_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SWI0_EGU0_IRQHandler$/;"	l
+SWI0_EGU0_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SWI0_EGU0_IRQHandler$/;"	l
+SWI0_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^SWI0_IRQHandler$/;"	l
+SWI1_EGU1_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SWI1_EGU1_IRQHandler$/;"	l
+SWI1_EGU1_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SWI1_EGU1_IRQHandler$/;"	l
+SWI1_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^SWI1_IRQHandler$/;"	l
+SWI2_EGU2_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SWI2_EGU2_IRQHandler$/;"	l
+SWI2_EGU2_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SWI2_EGU2_IRQHandler$/;"	l
+SWI2_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^SWI2_IRQHandler$/;"	l
+SWI3_EGU3_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SWI3_EGU3_IRQHandler$/;"	l
+SWI3_EGU3_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SWI3_EGU3_IRQHandler$/;"	l
+SWI3_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^SWI3_IRQHandler$/;"	l
+SWI4_EGU4_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SWI4_EGU4_IRQHandler$/;"	l
+SWI4_EGU4_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SWI4_EGU4_IRQHandler$/;"	l
+SWI4_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^SWI4_IRQHandler$/;"	l
+SWI5_EGU5_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SWI5_EGU5_IRQHandler$/;"	l
+SWI5_EGU5_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SWI5_EGU5_IRQHandler$/;"	l
+SWI5_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^SWI5_IRQHandler$/;"	l
+Stack_Mem	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^Stack_Mem       SPACE   Stack_Size$/;"	l
+Stack_Mem	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Stack_Mem       SPACE   Stack_Size$/;"	l
+Stack_Mem	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Stack_Mem       SPACE   Stack_Size$/;"	l
+Stack_Size	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^Stack_Size      EQU     2048$/;"	d
+Stack_Size	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^Stack_Size      EQU     __STACK_SIZE$/;"	d
+Stack_Size	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Stack_Size      EQU     8192$/;"	d
+Stack_Size	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Stack_Size      EQU     __STACK_SIZE$/;"	d
+Stack_Size	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Stack_Size      EQU     8192$/;"	d
+Stack_Size	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^Stack_Size      EQU     __STACK_SIZE$/;"	d
+SysTick_Handler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^SysTick_Handler PROC$/;"	l
+SysTick_Handler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SysTick_Handler PROC$/;"	l
+SysTick_Handler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^SysTick_Handler PROC$/;"	l
+SystemCoreClock	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/system_nrf51.c	/^    __root uint32_t SystemCoreClock = __SYSTEM_CLOCK;$/;"	v
+SystemCoreClock	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/system_nrf51.c	/^    uint32_t SystemCoreClock __attribute__((used)) = __SYSTEM_CLOCK;$/;"	v
+SystemCoreClock	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^    __root uint32_t SystemCoreClock = __SYSTEM_CLOCK_64M;$/;"	v
+SystemCoreClock	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^    uint32_t SystemCoreClock __attribute__((used)) = __SYSTEM_CLOCK_64M;$/;"	v
+SystemCoreClock	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^    __root uint32_t SystemCoreClock = __SYSTEM_CLOCK_64M;$/;"	v
+SystemCoreClock	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^    uint32_t SystemCoreClock __attribute__((used)) = __SYSTEM_CLOCK_64M;$/;"	v
+SystemCoreClockUpdate	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/system_nrf51.c	/^void SystemCoreClockUpdate(void)$/;"	f
+SystemCoreClockUpdate	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^void SystemCoreClockUpdate(void)$/;"	f
+SystemCoreClockUpdate	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^void SystemCoreClockUpdate(void)$/;"	f
+SystemInit	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/system_nrf51.c	/^void SystemInit(void)$/;"	f
+SystemInit	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^void SystemInit(void)$/;"	f
+SystemInit	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^void SystemInit(void)$/;"	f
+TEMPLATE_PATH	pca10028/armgcc/Makefile	/^TEMPLATE_PATH = ..\/..\/..\/..\/..\/components\/toolchain\/gcc$/;"	m
+TEMPLATE_PATH	pca10036/armgcc/Makefile	/^TEMPLATE_PATH = ..\/..\/..\/..\/..\/components\/toolchain\/gcc$/;"	m
+TEMPLATE_PATH	pca10040/armgcc/Makefile	/^TEMPLATE_PATH = ..\/..\/..\/..\/..\/components\/toolchain\/gcc$/;"	m
+TEMP_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^TEMP_IRQHandler$/;"	l
+TEMP_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^TEMP_IRQHandler$/;"	l
+TEMP_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^TEMP_IRQHandler$/;"	l
+TIMER0_CONFIG_BIT_WIDTH	config/uart_pca10028/nrf_drv_config.h	53;"	d
+TIMER0_CONFIG_BIT_WIDTH	config/uart_pca10036/nrf_drv_config.h	53;"	d
+TIMER0_CONFIG_BIT_WIDTH	config/uart_pca10040/nrf_drv_config.h	53;"	d
+TIMER0_CONFIG_FREQUENCY	config/uart_pca10028/nrf_drv_config.h	51;"	d
+TIMER0_CONFIG_FREQUENCY	config/uart_pca10036/nrf_drv_config.h	51;"	d
+TIMER0_CONFIG_FREQUENCY	config/uart_pca10040/nrf_drv_config.h	51;"	d
+TIMER0_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	54;"	d
+TIMER0_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	54;"	d
+TIMER0_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	54;"	d
+TIMER0_CONFIG_MODE	config/uart_pca10028/nrf_drv_config.h	52;"	d
+TIMER0_CONFIG_MODE	config/uart_pca10036/nrf_drv_config.h	52;"	d
+TIMER0_CONFIG_MODE	config/uart_pca10040/nrf_drv_config.h	52;"	d
+TIMER0_ENABLED	config/uart_pca10028/nrf_drv_config.h	48;"	d
+TIMER0_ENABLED	config/uart_pca10036/nrf_drv_config.h	48;"	d
+TIMER0_ENABLED	config/uart_pca10040/nrf_drv_config.h	48;"	d
+TIMER0_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	56;"	d
+TIMER0_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	56;"	d
+TIMER0_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	56;"	d
+TIMER0_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^TIMER0_IRQHandler$/;"	l
+TIMER0_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^TIMER0_IRQHandler$/;"	l
+TIMER0_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^TIMER0_IRQHandler$/;"	l
+TIMER1_CONFIG_BIT_WIDTH	config/uart_pca10028/nrf_drv_config.h	64;"	d
+TIMER1_CONFIG_BIT_WIDTH	config/uart_pca10036/nrf_drv_config.h	64;"	d
+TIMER1_CONFIG_BIT_WIDTH	config/uart_pca10040/nrf_drv_config.h	64;"	d
+TIMER1_CONFIG_FREQUENCY	config/uart_pca10028/nrf_drv_config.h	62;"	d
+TIMER1_CONFIG_FREQUENCY	config/uart_pca10036/nrf_drv_config.h	62;"	d
+TIMER1_CONFIG_FREQUENCY	config/uart_pca10040/nrf_drv_config.h	62;"	d
+TIMER1_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	65;"	d
+TIMER1_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	65;"	d
+TIMER1_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	65;"	d
+TIMER1_CONFIG_MODE	config/uart_pca10028/nrf_drv_config.h	63;"	d
+TIMER1_CONFIG_MODE	config/uart_pca10036/nrf_drv_config.h	63;"	d
+TIMER1_CONFIG_MODE	config/uart_pca10040/nrf_drv_config.h	63;"	d
+TIMER1_ENABLED	config/uart_pca10028/nrf_drv_config.h	59;"	d
+TIMER1_ENABLED	config/uart_pca10036/nrf_drv_config.h	59;"	d
+TIMER1_ENABLED	config/uart_pca10040/nrf_drv_config.h	59;"	d
+TIMER1_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	67;"	d
+TIMER1_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	67;"	d
+TIMER1_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	67;"	d
+TIMER1_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^TIMER1_IRQHandler$/;"	l
+TIMER1_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^TIMER1_IRQHandler$/;"	l
+TIMER1_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^TIMER1_IRQHandler$/;"	l
+TIMER2_CONFIG_BIT_WIDTH	config/uart_pca10028/nrf_drv_config.h	75;"	d
+TIMER2_CONFIG_BIT_WIDTH	config/uart_pca10036/nrf_drv_config.h	75;"	d
+TIMER2_CONFIG_BIT_WIDTH	config/uart_pca10040/nrf_drv_config.h	75;"	d
+TIMER2_CONFIG_FREQUENCY	config/uart_pca10028/nrf_drv_config.h	73;"	d
+TIMER2_CONFIG_FREQUENCY	config/uart_pca10036/nrf_drv_config.h	73;"	d
+TIMER2_CONFIG_FREQUENCY	config/uart_pca10040/nrf_drv_config.h	73;"	d
+TIMER2_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	76;"	d
+TIMER2_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	76;"	d
+TIMER2_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	76;"	d
+TIMER2_CONFIG_MODE	config/uart_pca10028/nrf_drv_config.h	74;"	d
+TIMER2_CONFIG_MODE	config/uart_pca10036/nrf_drv_config.h	74;"	d
+TIMER2_CONFIG_MODE	config/uart_pca10040/nrf_drv_config.h	74;"	d
+TIMER2_ENABLED	config/uart_pca10028/nrf_drv_config.h	70;"	d
+TIMER2_ENABLED	config/uart_pca10036/nrf_drv_config.h	70;"	d
+TIMER2_ENABLED	config/uart_pca10040/nrf_drv_config.h	70;"	d
+TIMER2_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	78;"	d
+TIMER2_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	78;"	d
+TIMER2_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	78;"	d
+TIMER2_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^TIMER2_IRQHandler$/;"	l
+TIMER2_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^TIMER2_IRQHandler$/;"	l
+TIMER2_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^TIMER2_IRQHandler$/;"	l
+TIMER3_CONFIG_BIT_WIDTH	config/uart_pca10028/nrf_drv_config.h	86;"	d
+TIMER3_CONFIG_BIT_WIDTH	config/uart_pca10036/nrf_drv_config.h	86;"	d
+TIMER3_CONFIG_BIT_WIDTH	config/uart_pca10040/nrf_drv_config.h	86;"	d
+TIMER3_CONFIG_FREQUENCY	config/uart_pca10028/nrf_drv_config.h	84;"	d
+TIMER3_CONFIG_FREQUENCY	config/uart_pca10036/nrf_drv_config.h	84;"	d
+TIMER3_CONFIG_FREQUENCY	config/uart_pca10040/nrf_drv_config.h	84;"	d
+TIMER3_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	87;"	d
+TIMER3_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	87;"	d
+TIMER3_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	87;"	d
+TIMER3_CONFIG_MODE	config/uart_pca10028/nrf_drv_config.h	85;"	d
+TIMER3_CONFIG_MODE	config/uart_pca10036/nrf_drv_config.h	85;"	d
+TIMER3_CONFIG_MODE	config/uart_pca10040/nrf_drv_config.h	85;"	d
+TIMER3_ENABLED	config/uart_pca10028/nrf_drv_config.h	81;"	d
+TIMER3_ENABLED	config/uart_pca10036/nrf_drv_config.h	81;"	d
+TIMER3_ENABLED	config/uart_pca10040/nrf_drv_config.h	81;"	d
+TIMER3_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	89;"	d
+TIMER3_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	89;"	d
+TIMER3_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	89;"	d
+TIMER3_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^TIMER3_IRQHandler$/;"	l
+TIMER3_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^TIMER3_IRQHandler$/;"	l
+TIMER4_CONFIG_BIT_WIDTH	config/uart_pca10028/nrf_drv_config.h	97;"	d
+TIMER4_CONFIG_BIT_WIDTH	config/uart_pca10036/nrf_drv_config.h	97;"	d
+TIMER4_CONFIG_BIT_WIDTH	config/uart_pca10040/nrf_drv_config.h	97;"	d
+TIMER4_CONFIG_FREQUENCY	config/uart_pca10028/nrf_drv_config.h	95;"	d
+TIMER4_CONFIG_FREQUENCY	config/uart_pca10036/nrf_drv_config.h	95;"	d
+TIMER4_CONFIG_FREQUENCY	config/uart_pca10040/nrf_drv_config.h	95;"	d
+TIMER4_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	98;"	d
+TIMER4_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	98;"	d
+TIMER4_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	98;"	d
+TIMER4_CONFIG_MODE	config/uart_pca10028/nrf_drv_config.h	96;"	d
+TIMER4_CONFIG_MODE	config/uart_pca10036/nrf_drv_config.h	96;"	d
+TIMER4_CONFIG_MODE	config/uart_pca10040/nrf_drv_config.h	96;"	d
+TIMER4_ENABLED	config/uart_pca10028/nrf_drv_config.h	92;"	d
+TIMER4_ENABLED	config/uart_pca10036/nrf_drv_config.h	92;"	d
+TIMER4_ENABLED	config/uart_pca10040/nrf_drv_config.h	92;"	d
+TIMER4_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	100;"	d
+TIMER4_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	100;"	d
+TIMER4_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	100;"	d
+TIMER4_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^TIMER4_IRQHandler$/;"	l
+TIMER4_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^TIMER4_IRQHandler$/;"	l
+TIMER_COUNT	config/uart_pca10028/nrf_drv_config.h	104;"	d
+TIMER_COUNT	config/uart_pca10036/nrf_drv_config.h	104;"	d
+TIMER_COUNT	config/uart_pca10040/nrf_drv_config.h	104;"	d
+TWI0_CONFIG_FREQUENCY	config/uart_pca10028/nrf_drv_config.h	309;"	d
+TWI0_CONFIG_FREQUENCY	config/uart_pca10036/nrf_drv_config.h	309;"	d
+TWI0_CONFIG_FREQUENCY	config/uart_pca10040/nrf_drv_config.h	309;"	d
+TWI0_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	312;"	d
+TWI0_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	312;"	d
+TWI0_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	312;"	d
+TWI0_CONFIG_SCL	config/uart_pca10028/nrf_drv_config.h	310;"	d
+TWI0_CONFIG_SCL	config/uart_pca10036/nrf_drv_config.h	310;"	d
+TWI0_CONFIG_SCL	config/uart_pca10040/nrf_drv_config.h	310;"	d
+TWI0_CONFIG_SDA	config/uart_pca10028/nrf_drv_config.h	311;"	d
+TWI0_CONFIG_SDA	config/uart_pca10036/nrf_drv_config.h	311;"	d
+TWI0_CONFIG_SDA	config/uart_pca10040/nrf_drv_config.h	311;"	d
+TWI0_ENABLED	config/uart_pca10028/nrf_drv_config.h	304;"	d
+TWI0_ENABLED	config/uart_pca10036/nrf_drv_config.h	304;"	d
+TWI0_ENABLED	config/uart_pca10040/nrf_drv_config.h	304;"	d
+TWI0_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	314;"	d
+TWI0_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	314;"	d
+TWI0_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	314;"	d
+TWI0_USE_EASY_DMA	config/uart_pca10028/nrf_drv_config.h	307;"	d
+TWI0_USE_EASY_DMA	config/uart_pca10036/nrf_drv_config.h	307;"	d
+TWI0_USE_EASY_DMA	config/uart_pca10040/nrf_drv_config.h	307;"	d
+TWI1_CONFIG_FREQUENCY	config/uart_pca10028/nrf_drv_config.h	322;"	d
+TWI1_CONFIG_FREQUENCY	config/uart_pca10036/nrf_drv_config.h	322;"	d
+TWI1_CONFIG_FREQUENCY	config/uart_pca10040/nrf_drv_config.h	322;"	d
+TWI1_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	325;"	d
+TWI1_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	325;"	d
+TWI1_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	325;"	d
+TWI1_CONFIG_SCL	config/uart_pca10028/nrf_drv_config.h	323;"	d
+TWI1_CONFIG_SCL	config/uart_pca10036/nrf_drv_config.h	323;"	d
+TWI1_CONFIG_SCL	config/uart_pca10040/nrf_drv_config.h	323;"	d
+TWI1_CONFIG_SDA	config/uart_pca10028/nrf_drv_config.h	324;"	d
+TWI1_CONFIG_SDA	config/uart_pca10036/nrf_drv_config.h	324;"	d
+TWI1_CONFIG_SDA	config/uart_pca10040/nrf_drv_config.h	324;"	d
+TWI1_ENABLED	config/uart_pca10028/nrf_drv_config.h	317;"	d
+TWI1_ENABLED	config/uart_pca10036/nrf_drv_config.h	317;"	d
+TWI1_ENABLED	config/uart_pca10040/nrf_drv_config.h	317;"	d
+TWI1_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	327;"	d
+TWI1_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	327;"	d
+TWI1_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	327;"	d
+TWI1_USE_EASY_DMA	config/uart_pca10028/nrf_drv_config.h	320;"	d
+TWI1_USE_EASY_DMA	config/uart_pca10036/nrf_drv_config.h	320;"	d
+TWI1_USE_EASY_DMA	config/uart_pca10040/nrf_drv_config.h	320;"	d
+TWIS0_CONFIG_ADDR0	config/uart_pca10028/nrf_drv_config.h	336;"	d
+TWIS0_CONFIG_ADDR0	config/uart_pca10036/nrf_drv_config.h	336;"	d
+TWIS0_CONFIG_ADDR0	config/uart_pca10040/nrf_drv_config.h	336;"	d
+TWIS0_CONFIG_ADDR1	config/uart_pca10028/nrf_drv_config.h	337;"	d
+TWIS0_CONFIG_ADDR1	config/uart_pca10036/nrf_drv_config.h	337;"	d
+TWIS0_CONFIG_ADDR1	config/uart_pca10040/nrf_drv_config.h	337;"	d
+TWIS0_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	340;"	d
+TWIS0_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	340;"	d
+TWIS0_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	340;"	d
+TWIS0_CONFIG_SCL	config/uart_pca10028/nrf_drv_config.h	338;"	d
+TWIS0_CONFIG_SCL	config/uart_pca10036/nrf_drv_config.h	338;"	d
+TWIS0_CONFIG_SCL	config/uart_pca10040/nrf_drv_config.h	338;"	d
+TWIS0_CONFIG_SDA	config/uart_pca10028/nrf_drv_config.h	339;"	d
+TWIS0_CONFIG_SDA	config/uart_pca10036/nrf_drv_config.h	339;"	d
+TWIS0_CONFIG_SDA	config/uart_pca10040/nrf_drv_config.h	339;"	d
+TWIS0_ENABLED	config/uart_pca10028/nrf_drv_config.h	333;"	d
+TWIS0_ENABLED	config/uart_pca10036/nrf_drv_config.h	333;"	d
+TWIS0_ENABLED	config/uart_pca10040/nrf_drv_config.h	333;"	d
+TWIS0_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	342;"	d
+TWIS0_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	342;"	d
+TWIS0_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	342;"	d
+TWIS1_CONFIG_ADDR0	config/uart_pca10028/nrf_drv_config.h	348;"	d
+TWIS1_CONFIG_ADDR0	config/uart_pca10036/nrf_drv_config.h	348;"	d
+TWIS1_CONFIG_ADDR0	config/uart_pca10040/nrf_drv_config.h	348;"	d
+TWIS1_CONFIG_ADDR1	config/uart_pca10028/nrf_drv_config.h	349;"	d
+TWIS1_CONFIG_ADDR1	config/uart_pca10036/nrf_drv_config.h	349;"	d
+TWIS1_CONFIG_ADDR1	config/uart_pca10040/nrf_drv_config.h	349;"	d
+TWIS1_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	352;"	d
+TWIS1_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	352;"	d
+TWIS1_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	352;"	d
+TWIS1_CONFIG_SCL	config/uart_pca10028/nrf_drv_config.h	350;"	d
+TWIS1_CONFIG_SCL	config/uart_pca10036/nrf_drv_config.h	350;"	d
+TWIS1_CONFIG_SCL	config/uart_pca10040/nrf_drv_config.h	350;"	d
+TWIS1_CONFIG_SDA	config/uart_pca10028/nrf_drv_config.h	351;"	d
+TWIS1_CONFIG_SDA	config/uart_pca10036/nrf_drv_config.h	351;"	d
+TWIS1_CONFIG_SDA	config/uart_pca10040/nrf_drv_config.h	351;"	d
+TWIS1_ENABLED	config/uart_pca10028/nrf_drv_config.h	345;"	d
+TWIS1_ENABLED	config/uart_pca10036/nrf_drv_config.h	345;"	d
+TWIS1_ENABLED	config/uart_pca10040/nrf_drv_config.h	345;"	d
+TWIS1_INSTANCE_INDEX	config/uart_pca10028/nrf_drv_config.h	354;"	d
+TWIS1_INSTANCE_INDEX	config/uart_pca10036/nrf_drv_config.h	354;"	d
+TWIS1_INSTANCE_INDEX	config/uart_pca10040/nrf_drv_config.h	354;"	d
+TWIS_ASSUME_INIT_AFTER_RESET_ONLY	config/uart_pca10028/nrf_drv_config.h	359;"	d
+TWIS_ASSUME_INIT_AFTER_RESET_ONLY	config/uart_pca10036/nrf_drv_config.h	359;"	d
+TWIS_ASSUME_INIT_AFTER_RESET_ONLY	config/uart_pca10040/nrf_drv_config.h	359;"	d
+TWIS_COUNT	config/uart_pca10028/nrf_drv_config.h	357;"	d
+TWIS_COUNT	config/uart_pca10036/nrf_drv_config.h	357;"	d
+TWIS_COUNT	config/uart_pca10040/nrf_drv_config.h	357;"	d
+TWIS_NO_SYNC_MODE	config/uart_pca10028/nrf_drv_config.h	361;"	d
+TWIS_NO_SYNC_MODE	config/uart_pca10036/nrf_drv_config.h	361;"	d
+TWIS_NO_SYNC_MODE	config/uart_pca10040/nrf_drv_config.h	361;"	d
+TWI_COUNT	config/uart_pca10028/nrf_drv_config.h	330;"	d
+TWI_COUNT	config/uart_pca10036/nrf_drv_config.h	330;"	d
+TWI_COUNT	config/uart_pca10040/nrf_drv_config.h	330;"	d
+TX_RX_BUF_LENGTH	spi_module.c	14;"	d	file:
+UART0_CONFIG_BAUDRATE	config/uart_pca10028/nrf_drv_config.h	290;"	d
+UART0_CONFIG_BAUDRATE	config/uart_pca10036/nrf_drv_config.h	290;"	d
+UART0_CONFIG_BAUDRATE	config/uart_pca10040/nrf_drv_config.h	290;"	d
+UART0_CONFIG_HWFC	config/uart_pca10028/nrf_drv_config.h	288;"	d
+UART0_CONFIG_HWFC	config/uart_pca10036/nrf_drv_config.h	288;"	d
+UART0_CONFIG_HWFC	config/uart_pca10040/nrf_drv_config.h	288;"	d
+UART0_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	295;"	d
+UART0_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	295;"	d
+UART0_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	295;"	d
+UART0_CONFIG_PARITY	config/uart_pca10028/nrf_drv_config.h	289;"	d
+UART0_CONFIG_PARITY	config/uart_pca10036/nrf_drv_config.h	289;"	d
+UART0_CONFIG_PARITY	config/uart_pca10040/nrf_drv_config.h	289;"	d
+UART0_CONFIG_PSEL_CTS	config/uart_pca10028/nrf_drv_config.h	293;"	d
+UART0_CONFIG_PSEL_CTS	config/uart_pca10036/nrf_drv_config.h	293;"	d
+UART0_CONFIG_PSEL_CTS	config/uart_pca10040/nrf_drv_config.h	293;"	d
+UART0_CONFIG_PSEL_RTS	config/uart_pca10028/nrf_drv_config.h	294;"	d
+UART0_CONFIG_PSEL_RTS	config/uart_pca10036/nrf_drv_config.h	294;"	d
+UART0_CONFIG_PSEL_RTS	config/uart_pca10040/nrf_drv_config.h	294;"	d
+UART0_CONFIG_PSEL_RXD	config/uart_pca10028/nrf_drv_config.h	292;"	d
+UART0_CONFIG_PSEL_RXD	config/uart_pca10036/nrf_drv_config.h	292;"	d
+UART0_CONFIG_PSEL_RXD	config/uart_pca10040/nrf_drv_config.h	292;"	d
+UART0_CONFIG_PSEL_TXD	config/uart_pca10028/nrf_drv_config.h	291;"	d
+UART0_CONFIG_PSEL_TXD	config/uart_pca10036/nrf_drv_config.h	291;"	d
+UART0_CONFIG_PSEL_TXD	config/uart_pca10040/nrf_drv_config.h	291;"	d
+UART0_CONFIG_USE_EASY_DMA	config/uart_pca10028/nrf_drv_config.h	297;"	d
+UART0_CONFIG_USE_EASY_DMA	config/uart_pca10036/nrf_drv_config.h	297;"	d
+UART0_CONFIG_USE_EASY_DMA	config/uart_pca10040/nrf_drv_config.h	297;"	d
+UART0_ENABLED	config/uart_pca10028/nrf_drv_config.h	285;"	d
+UART0_ENABLED	config/uart_pca10036/nrf_drv_config.h	285;"	d
+UART0_ENABLED	config/uart_pca10040/nrf_drv_config.h	285;"	d
+UART0_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^UART0_IRQHandler$/;"	l
+UARTE0_UART0_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^UARTE0_UART0_IRQHandler$/;"	l
+UARTE0_UART0_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^UARTE0_UART0_IRQHandler$/;"	l
+UART_EASY_DMA_SUPPORT	config/uart_pca10028/nrf_drv_config.h	299;"	d
+UART_EASY_DMA_SUPPORT	config/uart_pca10036/nrf_drv_config.h	299;"	d
+UART_EASY_DMA_SUPPORT	config/uart_pca10040/nrf_drv_config.h	299;"	d
+UART_LEGACY_SUPPORT	config/uart_pca10028/nrf_drv_config.h	300;"	d
+UART_LEGACY_SUPPORT	config/uart_pca10036/nrf_drv_config.h	300;"	d
+UART_LEGACY_SUPPORT	config/uart_pca10040/nrf_drv_config.h	300;"	d
+UART_RX_BUF_SIZE	uart_module.c	14;"	d	file:
+UART_TX_BUF_SIZE	uart_module.c	13;"	d	file:
+USE_SPI	ssd1306.c	16;"	d	file:
+WDT_CONFIG_BEHAVIOUR	config/uart_pca10028/nrf_drv_config.h	433;"	d
+WDT_CONFIG_BEHAVIOUR	config/uart_pca10036/nrf_drv_config.h	433;"	d
+WDT_CONFIG_BEHAVIOUR	config/uart_pca10040/nrf_drv_config.h	433;"	d
+WDT_CONFIG_IRQ_PRIORITY	config/uart_pca10028/nrf_drv_config.h	435;"	d
+WDT_CONFIG_IRQ_PRIORITY	config/uart_pca10036/nrf_drv_config.h	435;"	d
+WDT_CONFIG_IRQ_PRIORITY	config/uart_pca10040/nrf_drv_config.h	435;"	d
+WDT_CONFIG_RELOAD_VALUE	config/uart_pca10028/nrf_drv_config.h	434;"	d
+WDT_CONFIG_RELOAD_VALUE	config/uart_pca10036/nrf_drv_config.h	434;"	d
+WDT_CONFIG_RELOAD_VALUE	config/uart_pca10040/nrf_drv_config.h	434;"	d
+WDT_ENABLED	config/uart_pca10028/nrf_drv_config.h	430;"	d
+WDT_ENABLED	config/uart_pca10036/nrf_drv_config.h	430;"	d
+WDT_ENABLED	config/uart_pca10040/nrf_drv_config.h	430;"	d
+WDT_IRQHandler	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^WDT_IRQHandler$/;"	l
+WDT_IRQHandler	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^WDT_IRQHandler$/;"	l
+WDT_IRQHandler	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^WDT_IRQHandler$/;"	l
+WHITE	ssd1306.h	19;"	d
+WIDTH	ssd1306.c	/^static int16_t _width, _height, WIDTH, HEIGHT, cursor_x, cursor_y;$/;"	v	file:
+WiFi_Logo_height	icon.h	2;"	d
+WiFi_Logo_width	icon.h	1;"	d
+XPOS	main.c	214;"	d	file:
+YPOS	main.c	215;"	d	file:
+_HI	ssd1306.c	70;"	d	file:
+_HI_CS	ssd1306.c	77;"	d	file:
+_HI_DC	ssd1306.c	75;"	d	file:
+_HI_RS	ssd1306.c	73;"	d	file:
+_LO	ssd1306.c	71;"	d	file:
+_LO_CS	ssd1306.c	78;"	d	file:
+_LO_DC	ssd1306.c	76;"	d	file:
+_LO_RS	ssd1306.c	74;"	d	file:
+__SPI_MODULE_H	spi_module.h	2;"	d
+__SSD1306_LIB_H	ssd1306.h	2;"	d
+__SYSTEM_CLOCK	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/system_nrf51.c	42;"	d	file:
+__SYSTEM_CLOCK_64M	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	38;"	d	file:
+__SYSTEM_CLOCK_64M	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	38;"	d	file:
+__UART_MODULE_H	uart_module.h	2;"	d
+__Vectors	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^__Vectors       DCD     __initial_sp              ; Top of Stack$/;"	l
+__Vectors	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__Vectors       DCD     __initial_sp              ; Top of Stack$/;"	l
+__Vectors	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__Vectors       DCD     __initial_sp              ; Top of Stack$/;"	l
+__Vectors_End	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^__Vectors_End$/;"	l
+__Vectors_End	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__Vectors_End$/;"	l
+__Vectors_End	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__Vectors_End$/;"	l
+__Vectors_Size	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^__Vectors_Size  EQU     __Vectors_End - __Vectors$/;"	d
+__Vectors_Size	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__Vectors_Size  EQU     __Vectors_End - __Vectors$/;"	d
+__Vectors_Size	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__Vectors_Size  EQU     __Vectors_End - __Vectors$/;"	d
+__heap_base	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^__heap_base$/;"	l
+__heap_base	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__heap_base$/;"	l
+__heap_base	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__heap_base$/;"	l
+__heap_limit	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^__heap_limit$/;"	l
+__heap_limit	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__heap_limit$/;"	l
+__heap_limit	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__heap_limit$/;"	l
+__initial_sp	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^__initial_sp$/;"	l
+__initial_sp	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__initial_sp$/;"	l
+__initial_sp	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__initial_sp$/;"	l
+__user_initial_stackheap	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/arm_startup_nrf51.s	/^__user_initial_stackheap PROC$/;"	l
+__user_initial_stackheap	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__user_initial_stackheap PROC$/;"	l
+__user_initial_stackheap	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/arm_startup_nrf52.s	/^__user_initial_stackheap PROC$/;"	l
+_cp437	ssd1306.c	/^     _cp437; \/\/ If set, use correct CP437 charset (default is off)$/;"	v
+_cs	ssd1306.c	/^static uint32_t _dc, _rs, _cs;$/;"	v	file:
+_dc	ssd1306.c	/^static uint32_t _dc, _rs, _cs;$/;"	v	file:
+_height	ssd1306.c	/^static int16_t _width, _height, WIDTH, HEIGHT, cursor_x, cursor_y;$/;"	v	file:
+_i2caddr	ssd1306.c	/^static uint8_t _i2caddr, _vccstate;$/;"	v	file:
+_rs	ssd1306.c	/^static uint32_t _dc, _rs, _cs;$/;"	v	file:
+_vccstate	ssd1306.c	/^static uint8_t _i2caddr, _vccstate;$/;"	v	file:
+_width	ssd1306.c	/^static int16_t _width, _height, WIDTH, HEIGHT, cursor_x, cursor_y;$/;"	v	file:
+adagfxswap	ssd1306.c	156;"	d	file:
+bluetooth_icon	icon.h	/^const unsigned char bluetooth_icon[] = $/;"	v
+bsp_configuration	main.c	/^void bsp_configuration()$/;"	f
+buffer	ssd1306.c	/^static uint8_t buffer[SSD1306_LCDHEIGHT * SSD1306_LCDWIDTH \/ 8] = {$/;"	v	file:
+change_rtc	main.c	/^volatile bool change_rtc = false;$/;"	v
+cursor_x	ssd1306.c	/^static int16_t _width, _height, WIDTH, HEIGHT, cursor_x, cursor_y;$/;"	v	file:
+cursor_y	ssd1306.c	/^static int16_t _width, _height, WIDTH, HEIGHT, cursor_x, cursor_y;$/;"	v	file:
+drawble	main.c	/^void drawble(uint8_t px, uint8_t py) {$/;"	f
+errata_16	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_16(void)$/;"	f	file:
+errata_16	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_16(void)$/;"	f	file:
+errata_31	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_31(void)$/;"	f	file:
+errata_31	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_31(void)$/;"	f	file:
+errata_32	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_32(void)$/;"	f	file:
+errata_32	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_32(void)$/;"	f	file:
+errata_36	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_36(void)$/;"	f	file:
+errata_36	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_36(void)$/;"	f	file:
+errata_37	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_37(void)$/;"	f	file:
+errata_37	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_37(void)$/;"	f	file:
+errata_57	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_57(void)$/;"	f	file:
+errata_57	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_57(void)$/;"	f	file:
+errata_66	pca10036/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_66(void)$/;"	f	file:
+errata_66	pca10040/arm5_no_packs/RTE/Device/nRF52832_xxAA/system_nrf52.c	/^static bool errata_66(void)$/;"	f	file:
+is_disabled_in_debug_needed	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/system_nrf51.c	/^static bool is_disabled_in_debug_needed(void)$/;"	f	file:
+is_manual_peripheral_setup_needed	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/system_nrf51.c	/^static bool is_manual_peripheral_setup_needed(void)$/;"	f	file:
+is_peripheral_domain_setup_needed	pca10028/arm5_no_packs/RTE/Device/nRF51422_xxAC/system_nrf51.c	/^static bool is_peripheral_domain_setup_needed(void)$/;"	f	file:
+logo16_glcd_bmp	main.c	/^static const unsigned char \/*PROGMEM*\/ logo16_glcd_bmp[] = {$/;"	v	file:
+m_rx_data	spi_module.c	/^static uint8_t m_rx_data[TX_RX_BUF_LENGTH] = {0}; \/**< A buffer for incoming data. *\/$/;"	v	file:
+m_spi_master	spi_module.c	/^static const nrf_drv_spi_t m_spi_master = NRF_DRV_SPI_INSTANCE(0);$/;"	v	file:
+m_spi_master	spi_module.c	/^static const nrf_drv_spi_t m_spi_master = NRF_DRV_SPI_INSTANCE(1);$/;"	v	file:
+m_spi_master	spi_module.c	/^static const nrf_drv_spi_t m_spi_master = NRF_DRV_SPI_INSTANCE(2);$/;"	v	file:
+m_transfer_completed	spi_module.c	/^static volatile bool m_transfer_completed = true; \/**< A flag to inform about completed transfer. *\/$/;"	v	file:
+m_twi_master	ssd1306.c	/^static const nrf_drv_twi_t m_twi_master = NRF_DRV_TWI_INSTANCE(1);$/;"	v	file:
+m_tx_data	spi_module.c	/^static uint8_t m_tx_data[TX_RX_BUF_LENGTH] = {0}; \/**< A buffer with data to transfer. *\/$/;"	v	file:
+main	main.c	/^int main(void)$/;"	f
+pgm_read_byte	ssd1306.h	9;"	d
+remduplicates	pca10028/armgcc/Makefile	/^remduplicates = $(strip $(if $1,$(firstword $1) $(call remduplicates,$(filter-out $(firstword $1),$1))))$/;"	m
+remduplicates	pca10036/armgcc/Makefile	/^remduplicates = $(strip $(if $1,$(firstword $1) $(call remduplicates,$(filter-out $(firstword $1),$1))))$/;"	m
+remduplicates	pca10040/armgcc/Makefile	/^remduplicates = $(strip $(if $1,$(firstword $1) $(call remduplicates,$(filter-out $(firstword $1),$1))))$/;"	m
+rotation	ssd1306.c	/^static uint8_t textsize, rotation;$/;"	v	file:
+set_rotation	ssd1306.c	/^void set_rotation(uint8_t x)$/;"	f
+spi_init	spi_module.c	/^void spi_init(uint32_t clk, uint32_t mosi)$/;"	f
+spi_master_event_handler	spi_module.c	/^static void spi_master_event_handler(nrf_drv_spi_event_t event)$/;"	f	file:
+spi_send_recv	spi_module.c	/^void spi_send_recv(uint8_t * const p_tx_data,$/;"	f
+spi_transfer	spi_module.c	/^uint8_t* spi_transfer(uint8_t * message, const uint16_t len)$/;"	f
+ssd1306_begin	ssd1306.c	/^void ssd1306_begin(uint8_t vccstate, uint8_t i2caddr, bool reset)$/;"	f
+ssd1306_clear_display	ssd1306.c	/^void ssd1306_clear_display(void)$/;"	f
+ssd1306_command	ssd1306.c	/^void ssd1306_command(uint8_t c)$/;"	f
+ssd1306_cp437	ssd1306.c	/^void ssd1306_cp437(bool x)$/;"	f
+ssd1306_data	ssd1306.c	/^void ssd1306_data(uint8_t c)$/;"	f
+ssd1306_dim	ssd1306.c	/^void ssd1306_dim(bool dim)$/;"	f
+ssd1306_display	ssd1306.c	/^void ssd1306_display(void)$/;"	f
+ssd1306_draw_bitmap	ssd1306.c	/^void ssd1306_draw_bitmap(int16_t x, int16_t y, const uint8_t *bitmap, int16_t w, int16_t h, uint16_t color)$/;"	f
+ssd1306_draw_bitmap_bg	ssd1306.c	/^void ssd1306_draw_bitmap_bg(int16_t x, int16_t y,$/;"	f
+ssd1306_draw_char	ssd1306.c	/^void ssd1306_draw_char(int16_t x, int16_t y, uint8_t c, uint16_t color, uint16_t bg, uint8_t size)$/;"	f
+ssd1306_draw_circle	ssd1306.c	/^void ssd1306_draw_circle(int16_t x0, int16_t y0, int16_t r, uint16_t color)$/;"	f
+ssd1306_draw_circle_helper	ssd1306.c	/^void ssd1306_draw_circle_helper(int16_t x0, int16_t y0,$/;"	f
+ssd1306_draw_fast_hline	ssd1306.c	/^void ssd1306_draw_fast_hline(int16_t x, int16_t y, int16_t w, uint16_t color)$/;"	f
+ssd1306_draw_fast_hline_internal	ssd1306.c	/^void ssd1306_draw_fast_hline_internal(int16_t x, int16_t y, int16_t w, uint16_t color)$/;"	f
+ssd1306_draw_fast_vline	ssd1306.c	/^void ssd1306_draw_fast_vline(int16_t x, int16_t y, int16_t h, uint16_t color)$/;"	f
+ssd1306_draw_fast_vline_internal	ssd1306.c	/^void ssd1306_draw_fast_vline_internal(int16_t x, int16_t __y, int16_t __h, uint16_t color)$/;"	f
+ssd1306_draw_line	ssd1306.c	/^void ssd1306_draw_line(int16_t x0, int16_t y0,$/;"	f
+ssd1306_draw_pixel	ssd1306.c	/^void ssd1306_draw_pixel(int16_t x, int16_t y, uint16_t color)$/;"	f
+ssd1306_draw_rect	ssd1306.c	/^void ssd1306_draw_rect(int16_t x, int16_t y,$/;"	f
+ssd1306_draw_round_rect	ssd1306.c	/^void ssd1306_draw_round_rect(int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, uint16_t color)$/;"	f
+ssd1306_draw_triangle	ssd1306.c	/^void ssd1306_draw_triangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color)$/;"	f
+ssd1306_draw_xbitmap	ssd1306.c	/^void ssd1306_draw_xbitmap(int16_t x, int16_t y,$/;"	f
+ssd1306_fill_circle	ssd1306.c	/^void ssd1306_fill_circle(int16_t x0, int16_t y0, int16_t r, uint16_t color)$/;"	f
+ssd1306_fill_circle_helper	ssd1306.c	/^void ssd1306_fill_circle_helper(int16_t x0, int16_t y0, int16_t r,$/;"	f
+ssd1306_fill_rect	ssd1306.c	/^void ssd1306_fill_rect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color)$/;"	f
+ssd1306_fill_round_rect	ssd1306.c	/^void ssd1306_fill_round_rect(int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, uint16_t color)$/;"	f
+ssd1306_fill_screen	ssd1306.c	/^void ssd1306_fill_screen(uint16_t color)$/;"	f
+ssd1306_fill_triangle	ssd1306.c	/^void ssd1306_fill_triangle( int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color)$/;"	f
+ssd1306_get_cursor_x	ssd1306.c	/^int16_t ssd1306_get_cursor_x(void)$/;"	f
+ssd1306_get_cursor_y	ssd1306.c	/^int16_t ssd1306_get_cursor_y(void)$/;"	f
+ssd1306_get_rotation	ssd1306.c	/^uint8_t ssd1306_get_rotation(void)$/;"	f
+ssd1306_height	ssd1306.c	/^int16_t ssd1306_height(void)$/;"	f
+ssd1306_init	ssd1306.c	/^void ssd1306_init(uint32_t dc, uint32_t rs, uint32_t cs, uint32_t clk, uint32_t mosi)$/;"	f
+ssd1306_init_i2c	ssd1306.c	/^void ssd1306_init_i2c(uint32_t scl, uint32_t sda)$/;"	f
+ssd1306_invert_display	ssd1306.c	/^void ssd1306_invert_display(uint8_t i)$/;"	f
+ssd1306_power_on	main.c	/^void ssd1306_power_on(void)$/;"	f
+ssd1306_puts	ssd1306.c	/^void ssd1306_puts(char* buffer)$/;"	f
+ssd1306_putstring	ssd1306.c	/^void ssd1306_putstring(char* buffer)$/;"	f
+ssd1306_set_cursor	ssd1306.c	/^void ssd1306_set_cursor(int16_t x, int16_t y)$/;"	f
+ssd1306_set_rotation	ssd1306.c	/^void ssd1306_set_rotation(uint8_t x)$/;"	f
+ssd1306_set_textcolor	ssd1306.c	/^void ssd1306_set_textcolor(uint16_t c)$/;"	f
+ssd1306_set_textcolor_bg	ssd1306.c	/^void ssd1306_set_textcolor_bg(uint16_t c, uint16_t b)$/;"	f
+ssd1306_set_textsize	ssd1306.c	/^void ssd1306_set_textsize(uint8_t s)$/;"	f
+ssd1306_set_textwrap	ssd1306.c	/^void ssd1306_set_textwrap(bool w)$/;"	f
+ssd1306_start_scroll_diag_left	ssd1306.c	/^void ssd1306_start_scroll_diag_left(uint8_t start, uint8_t stop)$/;"	f
+ssd1306_start_scroll_diag_right	ssd1306.c	/^void ssd1306_start_scroll_diag_right(uint8_t start, uint8_t stop)$/;"	f
+ssd1306_start_scroll_left	ssd1306.c	/^void ssd1306_start_scroll_left(uint8_t start, uint8_t stop)$/;"	f
+ssd1306_start_scroll_right	ssd1306.c	/^void ssd1306_start_scroll_right(uint8_t start, uint8_t stop)$/;"	f
+ssd1306_stop_scroll	ssd1306.c	/^void ssd1306_stop_scroll(void)$/;"	f
+ssd1306_swap	ssd1306.c	155;"	d	file:
+ssd1306_width	ssd1306.c	/^int16_t ssd1306_width(void)$/;"	f
+ssd1306_write	ssd1306.c	/^size_t ssd1306_write(uint8_t c)$/;"	f
+testdrawbitmap	main.c	/^void testdrawbitmap(const uint8_t *bitmap, uint8_t w, uint8_t h)$/;"	f
+testdrawchar	main.c	/^void testdrawchar(void)$/;"	f
+testdrawline	main.c	/^void testdrawline(void)$/;"	f
+testdrawwifi	main.c	/^void testdrawwifi(void) $/;"	f
+textbgcolor	ssd1306.c	/^static uint16_t textcolor, textbgcolor;$/;"	v	file:
+textcolor	ssd1306.c	/^static uint16_t textcolor, textbgcolor;$/;"	v	file:
+textsize	ssd1306.c	/^static uint8_t textsize, rotation;$/;"	v	file:
+time_buffer	uart_module.c	/^uint8_t time_buffer[128] = {0};$/;"	v
+twi_evt_handler	ssd1306.c	/^void twi_evt_handler(nrf_drv_twi_evt_t const * p_event, void * p_context)$/;"	f
+twi_master_init	ssd1306.c	/^ret_code_t twi_master_init(uint32_t scl, uint32_t sda)$/;"	f
+uart_event_handle	uart_module.c	/^void uart_event_handle(app_uart_evt_t * p_event)$/;"	f
+uart_init	uart_module.c	/^void uart_init(void)$/;"	f
+use_i2c	ssd1306.c	/^static volatile bool use_i2c = false;$/;"	v	file:
+wifi_icon	icon.h	/^const unsigned char wifi_icon[] = {$/;"	v
+wrap	ssd1306.c	/^bool wrap,   \/\/ If set, 'wrap' text at right edge of display$/;"	v
